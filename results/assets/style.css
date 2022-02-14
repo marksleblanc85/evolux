@@ -1,0 +1,1190 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+/* ================================================= Text & Links */
+/* line 5, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 9, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 150px;
+  font-family: 'Open Sans', Helvetica, Arial sans-serif;
+}
+
+/* line 15, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+body, td, div, select, textarea, input {
+  font: 14px 'Open Sans', Helvetica, Arial sans-serif;
+  color: #000;
+}
+
+/* line 20, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.container {
+
+}
+
+/* line 24, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Open Sans', Helvetica, Arial sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* line 29, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+h2 {
+  font-size: 24px;
+  margin-bottom: 29px;
+}
+
+/* line 33, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+h3 {
+  font-size: 22px;
+}
+
+/* line 36, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+h4 {
+  font-weight: 400;
+}
+
+/* line 39, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.no-items {
+  text-transform: none !important;
+  margin: 10px 0 30px 0;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+/*Fix bootstrap checkbox with jquery uniform */
+/* line 46, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+  margin-left: 0;
+}
+
+/* line 49, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+a, div {
+  outline: none;
+}
+
+/* line 50, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.btn {
+  border: none;
+  text-transform: uppercase;
+  padding: 6px 20px;
+}
+
+/* line 55, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.btn-sm {
+  padding: 5px 10px;
+}
+
+/* line 58, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.btn-primary {
+  background: #3b769f;
+  color: #fff;
+}
+
+/* line 62, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.btn-default {
+  background: #eee;
+  color: #3b769f;
+}
+
+/* line 66, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.btn-success, .label-success {
+  background-color: #419e65;
+}
+
+/* line 69, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.btn-danger, .label-danger {
+  background-color: #a23827;
+}
+
+/* line 72, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.btn-warning, .label-warning {
+  background-color: #c78831;
+}
+
+/* line 75, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.btn-lg {
+  padding: 10px 47px;
+}
+
+/* line 78, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.btn-xs {
+  padding: 2px 6px;
+}
+
+/* line 81, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.glyphicon {
+  cursor: pointer;
+}
+
+/* line 85, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+h1.page-title {
+  font-size: 1.28em;
+  text-align: right;
+  margin: 8px 0 25px;
+  letter-spacing: 1px;
+}
+
+/* line 91, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.blue-header {
+  background: #09304D;
+  margin: 0;
+  color: #FFF;
+  padding: 15px 20px;
+  text-transform: uppercase !important;
+}
+
+/* line 98, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+h4.blue-header {
+  font-size: 16px;
+}
+
+/* line 101, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.with-wide-btn .btn {
+  padding: 10px 40px;
+}
+
+/* line 105, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.row-zero-right-margin {
+  margin-right: 0px !important;
+}
+
+/* line 109, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.ui-autocomplete-vertiport-category {
+  font-weight: bold;
+  padding: 2px .4em;
+  margin-top: 2px;
+  line-height: 1.5;
+}
+
+/* ================================================= Header */
+/*
+.newnavbar{
+  margin-top: 79px;
+  margin-left: 395px;
+  width: inherit;
+}
+.newnavbar ul {
+  padding-left: 55px;
+}
+.newnavbar ul li {
+  display: inline-block;
+  padding-right: 40px;
+}
+.newnavbar ul li a{
+  font-size: 1.42em;
+  font-weight: 600;
+  color: #fff !important;
+  background: none !important;
+  letter-spacing: 1px;
+}
+.newnavbar ul li a:hover{
+  text-decoration: none;
+}
+.navbar-inverse {
+  background: #1b1b1b;
+  margin-bottom: 20px;
+  border-radius: 0;
+  min-width: 1350px;
+  max-width: none;
+}
+.navbar .navbar-brand {
+  margin: 5px 0 20px 0px !important;
+  padding: 0;
+}
+.navbar .sign-in {
+  display: block;
+  clear: right;
+}
+.navbar .sign-in button, .navbar .sign-in a.btn{
+  float: right;
+  margin: 0 0 0 16px;
+  -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+}
+.navbar .sign-in p {
+  color: #b2b1b1;
+  text-transform: uppercase;
+  float: right;
+  line-height: 1.1em;
+  font-size: 1.16em;
+  font-weight: 600;
+  padding: 4px 0 0;
+}
+.navbar .sign-in p a {
+  color: #b2b1b1;
+  text-transform: uppercase;
+  float: right;
+  font-size: 0.75em;
+  text-decoration: underline;
+}
+.navbar .sign-in p a:hover {
+  text-decoration: none;
+}
+.navbar .header-nav{
+  height: 60px;
+  margin-bottom: 0px!important;
+  float: right;
+  min-width: 310px;
+}
+.navbar .header-nav li{
+  display: inline-table;
+}
+.container .navbar-header.logo {
+  float: left;
+  display: block;
+}
+.container .operator-nav-bar{
+  float: right;
+  width: 550px;
+}
+*/
+/* line 201, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.container .operator-nav-bar li {
+  display: inline-table;
+}
+
+/* line 204, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.container .operator-nav-bar .dropdown-menu li {
+  display: list-item;
+}
+
+/* line 208, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.navbar {
+  min-height: 75px;
+  border-radius: 0px;
+}
+
+/* line 213, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.navbar .container-fluid {
+  margin-top: 5px;
+}
+
+/* line 217, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.navbar-nav {
+  margin-top: 10px;
+}
+
+/* line 221, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.navbar-brand {
+  height: 75px;
+  padding: 0px 15px;
+}
+
+/* line 226, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.navbar-inverse {
+  background-color: #1b1b1b;
+}
+
+/* line 230, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.navbar-inverse .navbar-nav > .active.blue > a {
+  background-color: #3b759f;
+}
+
+/* line 234, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.navbar-nav > li > a {
+  color: #e3e3e3 !important;
+  font-weight: 600;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+/* line 241, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.navbar-brand .img-responsive {
+  max-width: 280px;
+  height: auto;
+}
+
+/* line 246, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.navbar-toggle {
+  margin-top: 18px;
+}
+
+/* ================================================= Form */
+/* line 251, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.block-content {
+  background: #d7d7d7;
+  padding: 30px;
+}
+
+/* line 255, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+form .cust-select, form .cust-hor-select .col-xs-8, .cust-hor-select .col-xs-9, .cust-hor-select.col-xs-12 {
+  padding-right: 48px;
+}
+
+/* line 258, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.form-horizontal-with-margin .form-group {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/* line 262, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.form-control {
+  height: 30px;
+  padding: 4px 12px;
+  border-radius: 0;
+}
+
+/* line 267, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline {
+  margin-left: 6px;
+}
+
+/* line 271, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.legend {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: #f2f7ff;
+  padding: 10px 0 0;
+  overflow: hidden;
+  width: 320px;
+  display: none;
+  -moz-box-shadow: 5px 5px 10px -5px #000;
+  -webkit-box-shadow: 5px 5px 10px -5px #000;
+  box-shadow: 5px 5px 10px -5px #000;
+}
+
+/* line 282, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.legend .row {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* line 287, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.legend figure {
+  color: #363636;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0 10px;
+  margin: 0 0 12px;
+}
+
+/* line 295, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.legend figure img {
+  margin-right: 8px;
+  float: left;
+}
+
+/* line 299, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.legend figure figcaption {
+  margin-top: 4px;
+  float: left;
+}
+
+/* line 303, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.legend figure figcaption.one-line {
+  margin-top: 11px;
+}
+
+/* line 306, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.form-legend-title {
+  font-family: 'Open Sans',Helvetica,Arial sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 0 15px 15px 15px;
+  margin-top: 10px !important;
+}
+
+/* line 316, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+form .user-image-upload-section .col-xs-2, form .user-image-upload-section .col-xs-9 {
+  width: auto !important;
+}
+
+/* line 319, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+form .user-social-section .form-group a {
+  margin-right: 10px;
+}
+
+/* line 323, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+form .weight-label {
+  padding: 5px 0 0 0 !important;
+  width: 20px !important;
+}
+
+/* line 328, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+div.selector {
+  margin-bottom: 0px;
+}
+
+/* line 331, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.has-error div.selector {
+  border: 1px solid #A94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 336, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.btn-confirm {
+  background: #ae000b;
+}
+
+/* line 339, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.btn-confirm:hover {
+  background: #93000b;
+}
+
+/* line 342, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+#error_explanation {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  background-color: #f2dede;
+  border: 1px solid #eed3d7;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #b94a48;
+}
+
+/* line 352, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+#error_explanation h2 {
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  padding: 5px 5px 5px 15px;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #b94a48;
+}
+
+/* line 362, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+#error_explanation p {
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #b94a48;
+}
+
+/* line 370, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+#error_explanation ul li {
+  font-size: 13px;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #b94a48;
+}
+
+/* line 376, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.form-horizontal .image_container {
+  margin-left: 15px;
+}
+
+/* line 377, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.image_container {
+  margin-bottom: 10px;
+}
+
+/* ================================================= Footer */
+/*footer {
+  padding: 25px 0;
+  background: #141621;
+  min-height: 150px;
+  min-width: 1350px;
+}
+footer p,
+footer a {
+  color: #fff;
+}
+footer .nav-social {
+  float: right;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+footer .nav-social li {
+  float: left;
+  margin: 0 0 0 20px;
+}
+footer .nav-social li a {
+  padding: 0;
+}
+footer .nav-social li a:hover {
+  background: none;
+}
+footer .nav-footer {
+  float: left;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+footer .nav-footer li {
+  float: left;
+  margin: 0 36px 0 0;
+}
+footer .nav-footer li a {
+  padding: 0;
+}
+footer .nav-footer li a:hover {
+  background: none;
+  text-decoration: underline;
+  color: #fff;
+}
+
+footer .copy {
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: -50px;
+}
+*/
+/* line 434, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+footer {
+  padding: 25px 0;
+  background: #141621;
+  min-height: 150px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/* line 443, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+footer p,
+footer a {
+  color: #fff;
+}
+
+/* line 446, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+footer .nav-social {
+  float: right;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* line 452, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+footer .nav-social li {
+  float: left;
+  margin: 0 0 0 20px;
+}
+
+/* line 456, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+footer .nav-social li a {
+  padding: 0;
+}
+
+/* line 459, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+footer .nav-social li a:hover {
+  background: none;
+}
+
+/* line 462, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+footer .nav-footer {
+  float: left;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* line 468, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+footer .nav-footer li {
+  float: left;
+  margin: 0 36px 0 0;
+}
+
+/* line 472, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+footer .nav-footer li a {
+  padding: 0;
+}
+
+/* line 475, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+footer .nav-footer li a:hover {
+  background: none;
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* line 480, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+footer .copy {
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: -50px;
+}
+
+/* ================================================= Hidden overflow text */
+/* line 489, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.passengers.over-hidden {
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  margin-bottom: -3px;
+}
+
+/* line 497, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.flights-box .details .over-hidden, .flights-box.skyshare-box .details .over-hidden,
+.results-holder .item .helicopter-details .over-hidden, .results-holder .item p.price .over-hidden, .operator-view-aircraft-info .over-hidden {
+  display: inline-block;
+}
+
+/* line 500, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.flights-box .details .over-hidden {
+  width: 260px;
+}
+
+/* line 503, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.flights-box.skyshare-box .details .over-hidden {
+  width: 474px;
+  margin-bottom: -4px;
+}
+
+/* line 507, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.results-holder .item .helicopter-details .over-hidden {
+  width: 190px;
+  margin-bottom: -4px;
+}
+
+/* line 511, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.results-holder .item p.price .over-hidden {
+  width: 170px;
+  margin-bottom: -4px;
+}
+
+/* line 515, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.operator-view-aircrafts .operator-view-aircraft-info .over-hidden {
+  width: 245px;
+  margin-bottom: -4px;
+}
+
+/* line 519, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.operator-dashboard-aircrafts .operator-view-aircraft-info .over-hidden {
+  width: 195px;
+  margin-bottom: -4px;
+}
+
+/* line 524, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.aircraft-img-scroll {
+  overflow: hidden;
+}
+.aircraft-img-scroll img {
+  display:block;
+  height:auto;
+  margin:0 auto;
+  width:55%
+}
+/* line 527, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.aircraft-img-carousel .carousel-inner > .item > img, .aircraft-img-carousel .carousel-inner > .item > a > img {
+  max-width: none;
+}
+
+/* line 530, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.aircraft-img-carousel .carousel .carousel-control.left, .aircraft-img-carousel .carousel .carousel-control.right {
+  background-image: none;
+}
+
+/* line 534, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.aircraft-img-carousel .carousel-control .glyphicon-chevron-left {
+  left: 30%;
+}
+
+/* line 537, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.aircraft-img-carousel .carousel-control .glyphicon-chevron-right {
+  right: 30%;
+}
+
+/* ================================================= Sign in */
+/* line 543, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.omniauth-section {
+  padding-right: 0px;
+  padding-left: 55px;
+}
+
+/* line 547, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.omniauth-section h4 {
+  font-size: 18px;
+  color: #333;
+  text-align: left;
+  line-height: normal;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+/* line 558, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.omniauth-section .form-group {
+  text-align: center;
+}
+
+/* line 561, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.sign-omniauth-line {
+  margin-top: 47px;
+}
+
+/* line 564, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.sign-evolux {
+  margin: 48px 10px 40px 36px;
+  padding: 0px;
+}
+
+/* line 568, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.sign-evolux .sign-in-blue-header {
+  font-size: 18px;
+  color: #FFF;
+  background: #3976a1;
+  text-align: left;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  height: 63px;
+  padding: 7px 10px;
+}
+
+/* line 579, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.sign-evolux .sign-in-blue-header img {
+  width: 54px;
+  height: 54px;
+}
+
+/* line 583, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.sign-in-section {
+  background: #d7d7d7;
+  padding: 30px 25px 20px 25px;
+  min-height: 310px;
+}
+
+/* line 588, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.sign-in-section .btn-link {
+  font-size: 13px;
+}
+
+/* line 591, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.sign-in-section .sign-in-links {
+  margin-bottom: 2px;
+}
+
+/* line 594, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.sign-in-section .form-group.sign-in-button {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+/* line 599, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.sign-in-vertical-line {
+  width: 1px;
+
+  background: #000;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 607, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.sign-in-or {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  text-align: center;
+  line-height: 33px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+
+/* line 617, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.sky-sign-in h1 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: normal;
+  color: #333;
+  text-align: left;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+
+/* ================================================= Booking */
+/* line 629, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .nav-tabs {
+  border: none;
+}
+
+/* line 632, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .nav-tabs li {
+  margin: 0;
+  width: 33.3333%;
+}
+
+/* line 637, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .nav-tabs a,
+.booking-steps .nav-tabs a:focus {
+  text-transform: uppercase;
+  color: #dbdbdb;
+  background: #656565;
+  border-radius: 0;
+  border: none !important;
+  text-align: center;
+  padding: 16px 15px;
+}
+
+/* line 647, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .nav-tabs a:hover,
+.booking-steps .nav-tabs li.active a {
+  color: #fff;
+  background: #3b769f;
+}
+
+/* line 651, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .nav-tabs li.active a:after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 16px 15.5px 0 15.5px;
+  border-color: #3b759f transparent transparent transparent;
+  position: absolute;
+  top: 52px;
+  left: 35px;
+}
+
+/* line 663, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .content {
+  background: #d7d7d7;
+  padding: 30px;
+}
+
+/* line 667, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .content form .row {
+  margin-bottom: 15px;
+}
+
+/* line 670, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .content form span.glyphicon-question-sign {
+  color: #2d556b;
+  font-size: 18px;
+  margin-top: 7px;
+}
+
+/* line 675, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .content hr {
+  border-color: #b1b5b8;
+}
+
+/* line 678, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .content form label.control-label {
+  font-weight: normal;
+  margin: 0 0 10px;
+}
+
+/* line 682, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .content form .weight-holder {
+  margin-bottom: 35px;
+}
+
+/* line 685, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .content form .radio-inline {
+  margin-bottom: 14px;
+}
+
+/* line 688, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.booking-steps .content form .submit-holder button.btn {
+  padding: 10px 40px;
+}
+
+/* line 691, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.shared-target-prices {
+  margin: 0 15px 15px 15px;
+  text-align: center;
+}
+
+/* line 695, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.shared-target-prices .shared-target-price {
+  padding: 0px !important;
+  width: 18.5%;
+}
+
+/* line 699, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.shared-target-prices .shared-target-price .on-board {
+  padding: 3px;
+  border: 1px solid #4F96C5;
+  background: #3b769f;
+  font-size: 13px !important;
+  color: white;
+  font-weight: normal;
+}
+
+/* line 707, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.shared-target-prices .shared-target-price .shared-price {
+  padding: 3px;
+  border-left: 1px solid #C5C5C5;
+  border-bottom: 1px solid #C5C5C5;
+  font-size: 13px !important;
+  background: white;
+}
+
+/* line 714, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.shared-target-prices .shared-target-price .shared-price label.radio-inline {
+  margin-bottom: 0px !important;
+}
+
+/* line 718, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.watcher-form .content {
+  background: #d7d7d7;
+  padding: 30px;
+}
+
+/* line 722, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.watcher-form .content label.checkbox {
+  font-weight: normal;
+  margin-left: 7px;
+}
+
+/* line 726, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.watcher-form h3, .watcher-form h5 {
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  text-align: left;
+  line-height: normal;
+  text-transform: none;
+}
+
+/* line 734, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.watcher-form h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* line 739, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.watcher-form h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* line 743, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.watcher-form .submit-holder {
+  margin-top: 10px;
+}
+
+/* ================================================= Flight */
+/* line 748, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form h1.page-title {
+  text-align: left;
+  margin-top: 15px;
+}
+
+/* line 752, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .flight-help {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+  line-height: normal;
+  margin: 15px 0;
+}
+
+/* line 761, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .flight-help:first-child {
+  margin-top: 30px;
+}
+
+/* line 764, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .row {
+  margin-bottom: 20px;
+}
+
+/* line 767, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .flight-steps-body {
+  margin-left: 30px;
+}
+
+/* line 770, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .flight-steps .col-xs-1 {
+  padding: 5px 0 0 0;
+  width: 40px;
+  height: 35px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  line-height: normal;
+  vertical-align: middle;
+  color: #FFF;
+  background: url(blue-circle.png) no-repeat center;
+}
+
+/* line 783, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .flight-steps .col-xs-11, .new-flight-form .helicopter-capacity {
+  padding: 0;
+  margin-top: 3px;
+  margin-left: 5px;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  text-align: left;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* line 794, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .helicopter-capacity {
+  margin-top: 5px;
+}
+
+/* line 797, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .shared-target-goals {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #333333;
+  text-align: center;
+  line-height: normal;
+}
+
+/* line 805, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .shared-target-goal {
+  background: #d7d7d7;
+  min-height: 130px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  padding: 0 0 10px 0;
+  width: 12%;
+}
+
+/* line 813, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .shared-target-goal .goal-on-board {
+  font-weight: 600;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  background: #3976a1;
+  text-align: center;
+  padding: 4px;
+}
+
+/* line 823, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .shared-target-goal .goal-on-board:after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 8px 7.5px 0 7.5px;
+  border-color: #3976a1 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 30px;
+  left: 37px;
+}
+
+/* line 835, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .shared-target-goal.active .goal-on-board, .new-flight-form .shared-target-goal:hover .goal-on-board {
+  background: #18A4E6;
+}
+
+/* line 838, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .shared-target-goal.active .goal-on-board:after, .new-flight-form .shared-target-goal:hover .goal-on-board:after {
+  border-color: #18a4e6 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+/* line 841, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .shared-target-goal .goal-shared-price {
+  color: #333;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  padding: 15px 2px 15px 2px;
+}
+
+/* line 849, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .shared-target-goal .goal-shared-price strong {
+  font-weight: 600;
+  font-style: bold;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+/* line 858, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .shared-target-goal .btn-mini {
+  padding: 3px 10px;
+  text-transform: none;
+}
+
+/* line 862, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .helicopter-capacity-imgs {
+  padding-left: 0px;
+}
+
+/* line 865, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .passenger-seat-img {
+  width: 28px;
+  height: 60px;
+  float: left;
+  display: block;
+  background: url(grey-seat.png) no-repeat;
+}
+
+/* line 872, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .green-seat {
+  background: url(green-seat.png) no-repeat;
+}
+
+/* line 875, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.new-flight-form .blue-seat {
+  background: url(blue-seat.png) no-repeat;
+}
+
+/* line 879, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.loading {
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+/* line 886, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+.result-loading {
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  margin-left: 45%;
+}
+
+/* ================================================= Media */
+@media only screen and (max-width: 1239px) {
+  /* line 896, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+  .navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* line 900, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+  ul.nav.navbar-nav {
+    margin-top: -15px;
+    clear: both;
+    padding-left: 0px;
+  }
+
+  /* line 906, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+  ul.nav.navbar-nav.navbar-right {
+    clear: none;
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 921, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+  footer .nav-social {
+    width: 231px;
+    margin: auto;
+    float: none;
+  }
+
+  /* line 926, /Users/ghost/projects/evolux/app/assets/stylesheets/style.css.scss */
+  footer .copy {
+    bottom: -20px;
+  }
+}

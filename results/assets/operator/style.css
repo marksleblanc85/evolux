@@ -1,0 +1,360 @@
+/* line 2, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+h1.page-title.operator {
+  font-size: 1.28em;
+  text-align: left;
+  margin: 8px 0 25px;
+  letter-spacing: 1px;
+}
+
+/* line 8, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-page-header {
+  margin: 10px 0px 20px 0;
+  border: 0px;
+}
+
+/* line 12, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-no-aircraft {
+  background: #d7d7d7;
+  padding: 80px 30px 10px 30px;
+  height: 200px;
+  text-align: center;
+}
+
+/* line 18, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-view-all-aircrafts .pagination {
+  margin-top: 5px;
+}
+
+/* line 21, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-view-aircraft {
+  background: #e4e4e4;
+  border-bottom: 1px solid #b1b5b8;
+}
+
+/* line 25, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-view-aircraft-info {
+  margin: 10px;
+  max-width: 260px;
+  max-height: 160px;
+  overflow-y: auto;
+}
+
+/* line 32, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.table-own-striped {
+  background-color: #f2f2f2 !important;
+}
+
+/* line 35, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.table-own-striped > tbody > tr:nth-child(odd) > td {
+  background-color: #e4e4e4 !important;
+}
+
+/* line 38, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-view-aircraft-img .aircraft-img-scroll img {
+  height: 160px !important;
+}
+
+/* line 42, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.td-smaller-btns .btn-sm {
+  padding: 4px 5px;
+}
+
+/* ================================================= Operator Form */
+/* line 47, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su-top .content {
+  background: #0f4c76;
+  padding: 20px 30px 15px 30px;
+  color: #fff;
+}
+
+/* line 53, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su-top-bar .content {
+  background: #09304d;
+  padding: 5px 30px 5px;
+  color: #fff;
+}
+
+/* line 59, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .content {
+  background: #d7d7d7;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+
+/* line 65, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .content p {
+  vertical-align: middle;
+  padding: 5px 0 0 0;
+}
+
+/* line 70, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .content h4, .operator-su .content h5, .operator-view-page h4, .operator-view-page h5 {
+  text-transform: none;
+}
+
+/* line 73, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .content h4 {
+  margin-bottom: 25px;
+}
+
+/* line 76, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .content form span.glyphicon-question-sign {
+  color: #2d556b;
+  font-size: 18px;
+  margin-top: 7px;
+}
+
+/* line 81, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .content hr {
+  border-color: #b1b5b8;
+}
+
+/* line 84, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .content form label.control-label {
+  font-weight: normal;
+  text-align: left;
+}
+
+/* line 88, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .content form .weight-holder {
+  margin-bottom: 35px;
+}
+
+/* line 91, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .content form .radio-inline {
+  margin-bottom: 14px;
+}
+
+/* line 94, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su input[type="file"] {
+  padding-top: 5px;
+}
+
+/* line 98, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .input-group .radio-inline:first-child, .operator-su .input-group .checkbox-inline:first-child {
+  padding-left: 0px;
+}
+
+/* line 102, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .city-addr .col-xs-3, .operator-su .state-addr .col-xs-3, .operator-su .postal-addr .col-xs-3 {
+  padding-right: 2px !important;
+  padding-left: 0px !important;
+}
+
+/* line 106, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .city-addr .col-xs-9, .operator-su .state-addr .col-xs-9, .operator-su .postal-addr .col-xs-9 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/* line 110, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .city-addr {
+  width: 26%;
+}
+
+/* line 113, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .state-addr {
+  width: 30%;
+  padding-left: 0px !important;
+}
+
+/* line 117, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .postal-addr {
+  width: 44%;
+}
+
+/* line 120, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .postal-addr .col-xs-3 {
+  padding-left: 20px !important;
+  width: 40%;
+}
+
+/* line 124, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-su .postal-addr .col-xs-9 {
+  width: 59%;
+  padding-right: 0px !important;
+}
+
+/* line 129, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator_chief_pilot_or_business_owner .col-xs-4 {
+  padding-right: 10px !important;
+}
+
+/* ================================================= Operator View */
+/* line 134, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-view-page .operator-page-header h1.page-title.operator {
+  margin-bottom: 8px;
+}
+
+/* line 137, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-view-page .operator-page-header .operator-second-title {
+  font-size: 1.15em;
+  text-align: left;
+  margin: 0 0 5px 0;
+  letter-spacing: 1px;
+  color: #6B6B6B;
+}
+
+/* line 144, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-view-page .row {
+  margin-bottom: 18px;
+}
+
+/* line 147, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-view-page .operator-info {
+  background: #e4e4e4;
+  padding: 10px 20px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+/* line 154, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-view-page .operator-info .oper-info-num {
+  font-size: 1.4em;
+}
+
+/* ================================================= Operator Dashboard */
+/* line 159, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-page-header {
+  margin-bottom: 0px;
+}
+
+/* line 162, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard h1.page-title.operator {
+  font-size: 2.3em;
+  text-transform: uppercase;
+}
+
+/* line 166, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-dashboard-info {
+  background: #f2f2f2;
+  padding: 15px 13px;
+  margin-bottom: 20px;
+}
+
+/* line 171, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-dashboard-info .dash-main-info {
+  font-size: 1.15em;
+}
+
+/* line 174, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-dashboard-info .dash-description-info {
+  margin: 20px 0;
+}
+
+/* line 177, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-new-missions-section {
+  margin-left: 20px;
+}
+
+/* line 180, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-no-missions {
+  background: #d7d7d7;
+  padding: 50px;
+  text-align: center;
+}
+
+/* line 185, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-new-missions-table .mission-info {
+  font-size: 1.1em;
+}
+
+/* line 188, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-new-missions-table .round-stop-info, .operator-dashboard .operator-new-missions-table .reposition-info {
+  margin-left: 7px;
+  font-size: 0.8em;
+  background: #3B769F;
+  padding: 3px;
+  color: #fff;
+}
+
+/* line 195, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-new-missions-table .reposition-info {
+  background: #c78831 !important;
+}
+
+/* line 198, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-dashboard-fleet {
+  background: #07314D;
+  height: 35px;
+}
+
+/* line 202, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-dashboard-fleet h4 {
+  margin: 0;
+  color: #FFF;
+  padding: 8px 15px;
+  text-transform: uppercase !important;
+}
+
+/* line 208, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-dashboard-fleet a {
+  text-transform: uppercase;
+  margin-left: 27px;
+  height: 35px;
+}
+
+/* line 213, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-dashboard-aircrafts {
+  height: 160px;
+  background: #e4e4e4;
+}
+
+/* line 217, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-dashboard-aircrafts .col-xs-3 {
+  padding-left: 0;
+  padding-right: 0;
+  width: 405px;
+}
+
+/* line 222, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-dashboard-aircrafts .col-xs-1 {
+  padding-left: 0;
+  padding-right: 0;
+  width: 40px;
+  height: 100%;
+  background: #3976a1;
+}
+
+/* line 229, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-dashboard-aircrafts .operator-view-aircraft-info {
+  width: 210px;
+  margin: 15px;
+}
+
+/* line 233, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-dashboard-aircrafts .prev-aircraft img, .operator-dashboard .operator-dashboard-aircrafts .next-aircraft img {
+  margin-top: 52px;
+  margin-left: 3px;
+}
+
+/* line 238, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .operator-missions-table th, .operator-dashboard .operator-invoice-table th {
+  background: #07314d;
+  color: #FFF;
+  text-transform: uppercase;
+  border-color: #fff;
+}
+
+/* line 244, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator-dashboard .pagination {
+  margin-top: 0px;
+}
+
+/* ================================================= Operator Aircraft */
+/* line 249, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.new-aircraft-side {
+  margin-right: 10px;
+  float: right;
+}
+
+/* line 254, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator_aircraft_form .vertiport-groups-section .vertiport-groups-cities {
+  width: 99%;
+}
+
+/* line 258, /Users/ghost/projects/evolux/app/assets/stylesheets/operator/style.css.scss */
+.operator_aircraft_form #aicraft_current_vertiports {
+  padding-left: 5px;
+}

@@ -1,0 +1,302 @@
+/* line 2, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.maps-flash .alert:last-child {
+  margin-bottom: 40px;
+}
+
+/* Shared global css */
+/* line 7, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.image-nested-fields {
+  margin: 10px 5px;
+}
+
+/* line 8, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.image-container {
+  margin: 10px 0 10px 10px;
+}
+
+/* line 9, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.image-container .image-filename {
+  font-weight: bold;
+}
+
+/* line 11, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.btn-black {
+  color: #ffffff;
+  background-color: #333333;
+  border-color: #1F1F1F;
+}
+
+/* line 16, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.btn-black:hover, .btn-black:focus, .btn-black:active, .btn-black.active {
+  color: #ffffff;
+  background-color: #333333;
+  border-color: #1F1F1F;
+}
+
+/* line 22, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.btn-grey {
+  color: #ffffff;
+  background-color: #A1A1A1;
+  border-color: #1F1F1F;
+}
+
+/* line 27, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.btn-grey:hover, .btn-grey:focus, .btn-grey:active, .btn-grey.active {
+  color: #ffffff;
+  background-color: #A1A1A1;
+  border-color: #1F1F1F;
+}
+
+/* Vertiport group section */
+/* line 34, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.vertiport-groups-regions {
+  margin: 5px 0;
+}
+
+/* line 37, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.vertiport-groups-section .vertiport_groups_region_select {
+  width: 100%;
+}
+
+/* line 40, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.vertiport-groups-section .vertiport-groups-cities {
+  background-color: #f2f2f2;
+  width: 90%;
+  margin-bottom: 20px;
+  border: 0px;
+}
+
+/* line 47, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.vertiport-groups-section .vertiport-groups-vertiports label {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+/* line 52, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.vertiport-groups-section .vertiport-groups-vertiports label.vertiport-city-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+/* line 57, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.vertiport-groups-section .vertiport-groups-vertiports label.vertiport-city-name:first-child {
+  margin-top: 0px;
+}
+
+/* line 61, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.vertiport-groups-section .vertiport-groups-city {
+  width: 100%;
+  display: inline-block;
+  padding: 4px 10px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: left;
+  white-space: nowrap;
+  vertical-align: middle;
+  overflow: hidden;
+  cursor: pointer;
+  color: white;
+  background-color: #3976a1;
+  border-color: #357ebd;
+}
+
+/* line 79, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.vertiport-groups-section .vertiport-groups-city:hover {
+  text-decoration: none;
+}
+
+/*Safety rating*/
+/* line 84, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.safety_rating_container {
+  margin-bottom: 5px;
+}
+
+/* Aircraft current vertiport */
+/* line 89, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+#aicraft_current_vertiports .checkbox.input-group {
+  padding-left: 0px !important;
+}
+
+/*DropDrop*/
+/* line 122, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdropattach {
+  border: 1px dashed #d8d8d8;
+  height: 75px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+/* line 130, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdropattach.hover {
+  background: #e6e6e6;
+}
+
+/* line 133, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdropattach.fade {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  opacity: 1;
+}
+
+/* line 141, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdropattach .dragdropattach-icon {
+  width: 20px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+/*http://jsfiddle.net/rudiedirkx/8hzjP/*/
+/* line 148, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  display: inline;
+}
+
+/* line 153, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.fileinput-button input {
+  left: -9999px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transform: translate(-300px, 0) scale(4);
+  font-size: 23px;
+  direction: ltr;
+  cursor: pointer;
+  border: solid transparent;
+  border-width: 0 0 100px 200px;
+}
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+  /* line 170, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+  .fileinput-button input {
+    filter: alpha(opacity=0);
+    font-size: 100%;
+    height: 100%;
+  }
+}
+/* line 177, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdrop_attachment_file_name_container {
+  font-size: 14px;
+}
+
+/* line 180, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdrop_attachment_container .dragdrop_add_file_link {
+  display: none;
+}
+
+/* line 183, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdrop_image_nested_field {
+  margin-bottom: 20px;
+  display: table;
+  width: 100%;
+}
+
+/* line 188, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdrop-nested-control-group {
+  margin: 0 !important;
+  min-height: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: table-row !important;
+}
+
+/* line 195, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdrop-nested-control-group .dragdrop_file_name, .dragdrop-nested-control-group .dragdrop_progress, .dragdrop-nested-control-group .dragdrop_remove_column {
+  display: table-cell !important;
+  float: none !important;
+}
+
+/* line 199, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdrop-nested-control-group .dragdrop_file_name {
+  min-width: 250px;
+  vertical-align: middle;
+  padding: 0 5px 0 0 !important;
+}
+
+/* line 204, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdrop-nested-control-group .dragdrop_file_name .dragdrop_attachment_name {
+  font-size: 14px;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+/* line 209, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdrop-nested-control-group .dragdrop_progress {
+  min-width: 100px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 25px 5px 0 5px !important;
+}
+
+/* line 215, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdrop-nested-control-group .dragdrop_progress .alert {
+  font-size: 14px;
+  padding: 5px;
+}
+
+/* line 219, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdrop-nested-control-group .dragdrop_progress .progress {
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 223, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.dragdrop-nested-control-group .dragdrop_remove_column {
+  min-width: 70px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 5px 0 5px !important;
+}
+
+/*End DropDrop*/
+/* Rating images */
+/* line 233, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.rating_images .rating_image {
+  float: left;
+  background: url(../img-safety-ratings.png) no-repeat;
+  height: 70px;
+  width: 85px;
+}
+
+/* line 240, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.rating_images .argus_gold_plus {
+  background-position: -85px 0px;
+}
+
+/* line 244, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.rating_images .argus_platinum {
+  background-position: -175px 0px;
+}
+
+/* line 248, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.rating_images .is_bao_registered {
+  background-position: -265px 0px;
+}
+
+/* line 252, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.rating_images .wyvern_wingman {
+  background-position: -350px 0px;
+  width: 115px;
+}
+
+/* line 257, /Users/ghost/projects/evolux/app/assets/stylesheets/shared/style.scss */
+.rating_images .evolux {
+  float: left;
+  background: url(../evolux-cmyk.png) no-repeat;
+  height: 70px;
+  width: 105px;
+}
+
+/* End Rating images */

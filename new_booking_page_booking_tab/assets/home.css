@@ -1,0 +1,492 @@
+/* line 1, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.title-holder {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 0 15px;
+}
+
+/* line 6, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.title-holder h2, .title-holder h3 {
+  text-transform: uppercase;
+  color: #1b1b1b;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* line 12, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.title-holder a {
+  float: right;
+  color: #1b1b1b;
+  margin: 6px 0 0;
+}
+
+/* line 17, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.title-holder a.view-all {
+  background: image-url "arrow-right-blue.png" no-repeat right center;
+  padding: 0 15px 0 0;
+  text-transform: uppercase;
+  font-size: 1.28em;
+  letter-spacing: 1px;
+  margin: 2px 0 0;
+}
+
+/* line 26, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+h3.title,
+.form-search-flights h3 {
+  background: #3b769f;
+  padding: 13px 15px;
+  color: #fff;
+  margin: 0;
+  overflow: hidden;
+  letter-spacing: 1px;
+}
+
+/* line 35, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+h3.title:after,
+.form-search-flights h3:after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 16px 15.5px 0 15.5px;
+  border-color: #3b759f transparent transparent transparent;
+  position: absolute;
+  top: 48px;
+  left: 35px;
+}
+
+/* line 47, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+h3.title.grey {
+  background: #656565;
+}
+
+/* line 48, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+h3.title.grey:after {
+  display: none;
+}
+
+/* line 49, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map-full {
+  position: relative;
+  overflow: hidden;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  background-size: cover;
+  height: 480px;
+  min-width: 1350px;
+  max-width: none;
+}
+
+/* line 59, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+label.require {
+  padding-right: 0;
+}
+
+/* line 62, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+label.require:after {
+  content: " *";
+  color: red;
+}
+
+/* line 66, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map-full .container {
+  overflow: hidden;
+  height: 480px;
+  min-width: 1350px;
+}
+
+/* line 71, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map-full .form-search-flights h3 {
+  text-align: center;
+}
+
+/* line 74, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map-full .form-search-flights h3:after {
+  left: 50%;
+  margin-left: -15px;
+}
+
+/* line 79, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map-full .carousel .carousel-inner .item iframe, .google-map-full .carousel .carousel-inner .item img {
+  width: 100%;
+  height: 480px;
+}
+
+/* line 83, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map-full .carousel .carousel-control.left, .google-map-full .carousel .carousel-control.right {
+  background-image: none;
+}
+
+/* line 87, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-search-flights {
+  background: #d7d7d7;
+  padding: 0 25px 15px;
+  margin-bottom: 15px;
+}
+
+/* line 92, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.googleMap {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 97, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map-full .form-search-flights {
+  background-color: rgba(27, 27, 27, 0.659);
+  position: absolute;
+  top: 23px;
+  left: 72px;
+  width: 470px;
+  -moz-box-shadow: 6px 10.392px 16px 0px #141621;
+  -webkit-box-shadow: 6px 10.392px 16px 0px #141621;
+  box-shadow: 6px 10.392px 16px 0px #141621;
+}
+
+/* line 105, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-search-flights h3 {
+  margin: 0 -25px 25px;
+}
+
+/* line 108, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-search-flights .time {
+  padding: 0 22px 0 15px;
+}
+
+/* line 111, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map .form-search-flights h3 {
+  text-align: center;
+  margin: 0 -15px 20px;
+  padding: 12px 0;
+}
+
+/* line 116, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-search-flights .control-label {
+  text-align: left;
+  font-weight: normal;
+  width: 23%;
+}
+
+/* line 121, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map-full .form-search-flights .control-label {
+  color: #fff;
+}
+
+/* line 124, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map-full .form-search-flights input.calendar {
+  border: 1px;
+}
+
+/* line 127, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map-full .form-search-flights div.selector span {
+  border: none;
+}
+
+/* line 130, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.google-map-full .form-search-flights label.radio-inline {
+  color: #fff;
+}
+
+/* line 133, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-search-flights .form-group {
+  margin-bottom: 20px;
+}
+
+/* line 136, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-search-flights .form-group .col-xs-9 {
+  width: 78%;
+}
+
+/* line 139, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-horizontal .add-stop-holder {
+  margin-bottom: 8px;
+  margin-top: -12px;
+}
+
+/* line 143, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-horizontal .add-stop-holder button {
+  padding-left: 24px;
+  background: #3b769f url(icon-plus.png) no-repeat 6px center;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 148, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-horizontal .calendar-holder {
+  margin-bottom: 12px;
+}
+
+/* line 151, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-horizontal .calendar-holder .col-xs-5 {
+  width: 172px;
+}
+
+/* line 154, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-horizontal .calendar-holder .time {
+  width: 140px;
+  padding-left: 0;
+}
+
+/* line 158, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-horizontal .passengers-holder {
+  margin-bottom: 0;
+}
+
+/* line 161, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-horizontal .submit-holder {
+  margin-top: -20px;
+}
+
+/* line 164, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.form-horizontal .submit-holder .btn {
+  padding: 8px 10px;
+  margin-top: -10px;
+}
+
+/* line 168, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box {
+  margin: 0 0 107px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* line 173, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box.skyshare-box {
+  margin: 0 0 33px;
+}
+
+/* line 176, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .img-holder {
+  width: 240px;
+  height: 240px;
+  float: left;
+}
+
+/* line 181, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .img-holder img {
+  height: 240px;
+  max-width: initial !important;
+}
+
+/* line 185, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .details {
+  background: #d4d4d4;
+  float: left;
+  min-height: 248px;
+  width: 292px;
+}
+
+/* line 191, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box.skyshare-box .details {
+  min-height: 248px;
+  width: 504px;
+}
+
+/* line 195, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box.skyshare-box.skyshare-result-page {
+  padding: 0 0;
+  margin-left: 12px;
+}
+
+/* line 199, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box.skyshare-box.skyshare-result-page .details {
+  width: 575px;
+}
+
+/* line 202, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box.skyshare-box.view-flight-content .details {
+  min-height: 240px !important;
+}
+
+/* line 205, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .details h3 {
+  margin: 0;
+  background: #3b769f;
+  padding: 5px 15px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* line 212, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .details .content {
+  padding: 7px 14px 5px;
+  overflow: hidden;
+}
+
+/* line 216, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .details .content p {
+  line-height: 1.45em;
+  margin: 0;
+}
+
+/* line 220, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box.skyshare-box .details .content {
+  padding-top: 11px;
+}
+
+/* line 223, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box.skyshare-box .details .content p {
+  font-size: 16px;
+  line-height: 1.25em;
+  margin: 0 0 5px;
+}
+
+/* line 228, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .details .content p strong {
+  font-size: 18px;
+}
+
+/* line 231, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .details .small-price {
+  font-size: 11px;
+}
+
+/* line 234, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .details .content p .small-price strong {
+  font-size: 11px;
+}
+
+/* line 237, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .details .passengers {
+  margin: 5px 0 2px;
+}
+
+/* line 240, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .details .passengers a {
+  display: block;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+  margin-right: 2px;
+  background: #eee;
+  display: inline-block;
+}
+
+/* line 250, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .details .passengers img {
+  vertical-align: inherit;
+  width: 38px;
+  height: 38px;
+}
+
+/* line 256, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box .details a.btn {
+  margin: 0 0 0 6px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding: 5px 22px;
+}
+
+/* line 261, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box.skyshare-box .details a.btn {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px 6px;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+/* line 268, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box.full-page-box .details {
+  width: 100% !important;
+}
+
+/* line 271, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.flights-box.shift-box .details {
+  width: 100% !important;
+  min-height: 0 !important;
+}
+
+/* line 276, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+#vertiport-info .modal-dialog {
+  margin-top: 140px;
+  width: 880px;
+  height: 428px;
+}
+
+/* line 282, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+#vertiport-info .modal-header {
+  background: #3b769f;
+  color: #e2e1e1;
+}
+
+/* line 287, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+#vertiport-info .modal-body {
+  width: 878px;
+  height: 350px;
+  background: #e2e1e1;
+  color: #3b769f;
+  overflow: auto;
+  font-size: 0.85em;
+}
+
+/* line 296, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+#vertiport-info .modal-body p {
+  text-align: justify;
+  word-spacing: -0.1ex;
+  margin: 0px;
+}
+
+/* line 302, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+#vertiport-info .modal-body .info {
+  height: 310px;
+  overflow-y: auto;
+}
+
+/* line 307, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+#vertiport-info .modal-body .info .name {
+  font-size: 24px;
+}
+
+/* line 310, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+#vertiport-info .modal-body .info .location {
+  font-size: 18px;
+}
+
+/* line 313, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+#vertiport-info .modal-body .info .description {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* line 318, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+#vertiport-info .modal-body .video {
+  color: #3b769f !important;
+  height: 310px;
+  border-right: 3px solid #b2b1b1;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+/* line 326, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+#vertiport-info .modal-body .video .image {
+  width: 320px;
+  height: 320px;
+}
+
+/* line 331, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+#vertiport-info .modal-header .close {
+  background-image: url(modal-close.png);
+  width: 15px;
+  height: 15px;
+}
+
+/* line 337, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.homeMap #trip_aircraft_finder_form .help-block {
+  color: orange;
+}
+
+/* line 341, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.shared_flights .img-holder {
+  float: left;
+  width: 110px;
+}
+
+/* line 346, /Users/ghost/projects/evolux/app/assets/stylesheets/home.css.scss */
+.shared_flights .img-holder img {
+  height: 248px;
+  max-width: initial !important;
+}

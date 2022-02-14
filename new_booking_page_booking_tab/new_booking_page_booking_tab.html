@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html itemscope='' itemtype='http://schema.org/Article' lang='en' xmlns:og='http://ogp.me/ns#'>
+  <head>
+    <link href="../favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <meta charset='UTF-8'>
+    <meta content='user-scalable = yes' name='viewport'>
+    
+    <!--[if IE]>
+      <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src='//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script>
+      <script src='//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js'></script>
+    <![endif]-->
+    <title>EvoLux Transportation</title>
+    <link href="./assets/application.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.core.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.theme.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.accordion.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.menu.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.autocomplete.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.button.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.datepicker.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.resizable.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.dialog.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.progressbar.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.selectable.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.slider.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.spinner.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.tabs.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.tooltip.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.base.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/jquery.ui.all.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/bootstrap.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/bootstrapValidator.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/uniform.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/shared/style.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/style.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/operator/style.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/google_maps.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/home.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/skyshare.css?body=1" media="all" rel="stylesheet" />
+    <link href="./assets/trips.css?body=1" media="all" rel="stylesheet" />
+    
+    <script src="./assets/jquery.js?body=1"></script>
+    <script src="./assets/jquery_ujs.js?body=1"></script>
+    <script src="./assets/jquery.ui.core.js?body=1"></script>
+    <script src="./assets/jquery.ui.widget.js?body=1"></script>
+    <script src="./assets/jquery.ui.accordion.js?body=1"></script>
+    <script src="./assets/jquery.ui.position.js?body=1"></script>
+    <script src="./assets/jquery.ui.menu.js?body=1"></script>
+    <script src="./assets/jquery.ui.autocomplete.js?body=1"></script>
+    <script src="./assets/jquery.ui.button.js?body=1"></script>
+    <script src="./assets/jquery.ui.datepicker.js?body=1"></script>
+    <script src="./assets/jquery.ui.mouse.js?body=1"></script>
+    <script src="./assets/jquery.ui.draggable.js?body=1"></script>
+    <script src="./assets/jquery.ui.resizable.js?body=1"></script>
+    <script src="./assets/jquery.ui.dialog.js?body=1"></script>
+    <script src="./assets/jquery.ui.droppable.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-blind.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-bounce.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-clip.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-drop.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-explode.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-fade.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-fold.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-highlight.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-pulsate.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-scale.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-shake.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-slide.js?body=1"></script>
+    <script src="./assets/jquery.ui.effect-transfer.js?body=1"></script>
+    <script src="./assets/jquery.ui.progressbar.js?body=1"></script>
+    <script src="./assets/jquery.ui.selectable.js?body=1"></script>
+    <script src="./assets/jquery.ui.slider.js?body=1"></script>
+    <script src="./assets/jquery.ui.sortable.js?body=1"></script>
+    <script src="./assets/jquery.ui.spinner.js?body=1"></script>
+    <script src="./assets/jquery.ui.tabs.js?body=1"></script>
+    <script src="./assets/jquery.ui.tooltip.js?body=1"></script>
+    <script src="./assets/jquery.ui.all.js?body=1"></script>
+    <script src="./assets/jstz.js?body=1"></script>
+    <script src="./assets/jquery.maskedinput.js?body=1"></script>
+    <script src="./assets/bootstrap.js?body=1"></script>
+    <script src="./assets/bootstrapValidator.js?body=1"></script>
+    <script src="./assets/jquery.uniform.min.js?body=1"></script>
+    <script src="./assets/jquery.mousewheel.js?body=1"></script>
+    <script src="./assets/jquery.scrollTo.js?body=1"></script>
+    <script src="./assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1"></script>
+    <script src="./assets/jquery-fileupload/vendor/load-image.js?body=1"></script>
+    <script src="./assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1"></script>
+    <script src="./assets/jquery-fileupload/vendor/tmpl.js?body=1"></script>
+    <script src="./assets/jquery-fileupload/jquery.iframe-transport.js?body=1"></script>
+    <script src="./assets/jquery-fileupload/jquery.fileupload.js?body=1"></script>
+    <script src="./assets/jquery-fileupload/jquery.fileupload-fp.js?body=1"></script>
+    <script src="./assets/jquery-fileupload/jquery.fileupload-ui.js?body=1"></script>
+    <script src="./assets/jquery-fileupload/locale.js?body=1"></script>
+    <script src="./assets/jquery-fileupload/index.js?body=1"></script>
+    <script src="./assets/cocoon.js?body=1"></script>
+    <script src="./assets/jquery.truncate.js?body=1"></script>
+    <script src="./assets/autocomplete-rails.js?body=1"></script>
+    <script src="./assets/shared/global.js?body=1"></script>
+    <script src="./assets/shared/aircrafts.js?body=1"></script>
+    <script src="./assets/shared/upload_files.js?body=1"></script>
+    <script src="./assets/bookings.js?body=1"></script>
+    <script src="./assets/global.js?body=1"></script>
+    <script src="./assets/home.js?body=1"></script>
+    <script src="./assets/scroll_images.js?body=1"></script>
+    <script src="./assets/trip_aircraft_finder.js?body=1"></script>
+    <script src="./assets/trips.js?body=1"></script>
+    <script src="./assets/users.js?body=1"></script>
+    <script src="./assets/operator/calendar.js?body=1"></script>
+    <script src="./assets/operator/dashboard.js?body=1"></script>
+    <script src="./assets/operator/flights.js?body=1"></script>
+    <script src="./assets/operator/operator.js?body=1"></script>
+    <script src="./assets/application.js?body=1"></script>
+    
+    <meta content="authenticity_token" name="csrf-param" />
+    <meta content="Quyi9GQRYg862zaKbaHRTTK/J4B+ZiaIIQ5U6lWJn4g=" name="csrf-token" />
+    
+  </head>
+  <body>
+    
+    
+    <div class='navbar navbar-inverse' role='navigation'>
+      <div class='container-fluid'>
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class="navbar-brand" href="http://localhost:3000/fly"><img alt="" class="img-responsive" src="./assets/evolux_logo-silver_395x80.png" /></a>
+        </div>
+        <div class='navbar-collapse collapse'>
+          <ul class='nav navbar-nav navbar-right'>
+            <li><a href="http://localhost:3000/bookings">My Bookings</a></li>
+            <li class='divider'></li>
+            <li><a href="http://localhost:3000/me/edit">My Profile</a></li>
+            <li class='divider'></li>
+            <li><a href="http://localhost:3000/admin">Admin Side</a></li>
+            <li class='divider'></li>
+            <li><a data-method="delete" href="http://localhost:3000/users/sign_out" rel="nofollow">Sign Out</a></li>
+          </ul>
+          <ul class='nav navbar-nav'>
+            <li class='active'><a href="http://localhost:3000/about">ABOUT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='' id='flash_messages'>
+      </div>
+    </div>
+    <div class='container'>
+      <h1 class='page-title'>Booking page</h1>
+      <div class='row'>
+        <div class='col-xs-7 leftcol'>
+          <div class='row'>
+            <div class='col-xs-12 booking-steps'>
+              <ul class='nav nav-tabs' id='booking_forms_nav'>
+                <li class='active' id='booking_tab_nav'>
+                  <a data-target="#booking_tab" data-toggle="tab" href="javascript:void(0)">1. Booking Information</a>
+                </li>
+                <li class='disabled' id='payment_tab_nav'>
+                  <a data-target="#payment_tab" href="javascript:void(0)">2. Payment Method</a>
+                </li>
+                <li class='disabled' id='confirm_tab_nav'>
+                  <a data-target="#confirm_tab" href="javascript:void(0)">3. Review &amp; Confirm</a>
+                </li>
+              </ul>
+              <div class='tab-content' id='booking_forms_content'>
+                <div class='tab-pane active' id='booking_tab'>
+                  <script>
+                    $(document).ready(function(){
+                      init_form_input_and_tooltip(true, $('#booking_tab'));
+                      booking_form_initializator.initialize();
+                      init_phone_format_fields();
+                    });
+                  </script>
+                  <div class='content'>
+                    <form accept-charset="UTF-8" action="http://localhost:3000/bookings" class="simple_form new_booking" data-remote="true" id="new_booking" method="post" novalidate="novalidate" role="form"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>  <input id="flight_id" name="flight_id" type="hidden" value="4F9403680" />
+                      
+                      <div class='row'>
+                        <div class="form-group string optional booking_flight_promo_code_string col-xs-4"><label class="string optional control-label" for="booking_flight_attributes_promo_code_string">Promo Code</label><input class="string optional form-control" id="booking_flight_attributes_promo_code_string" name="booking[flight_attributes][promo_code_string]" type="text" value="fd6665fb" /></div>
+                        <input id="booking_flight_attributes_id" name="booking[flight_attributes][id]" type="hidden" value="57" />
+                        <div class='col-xs-4'>
+                          <div class='form-group'>
+                            <label class='control-label'>Promo Program</label>
+                            <div class='string form-control-static'>Closed Beta Invites</div>
+                          </div>
+                        </div>
+                        <div class='col-xs-4'>
+                          <div class='form-group'>
+                            <label class='control-label'>Discount</label>
+                            <div class='string form-control-static'>5%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                      <div id='booking_owner_passenger' style=''>
+                        <div class='nested-fields'>
+                          <input class="booking_passenger_reject_passenger" id="booking_passengers_attributes_0_reject_passenger" name="booking[passengers_attributes][0][reject_passenger]" type="hidden" value="" />
+                          <input id="booking_passengers_attributes_0_owner_of_booking" name="booking[passengers_attributes][0][owner_of_booking]" type="hidden" value="true" />
+                          <input id="booking_passengers_attributes_0_user_id" name="booking[passengers_attributes][0][user_id]" type="hidden" value="2" />
+                          <div class='row'>
+                            <div class="form-group string required booking_passengers_first_name col-xs-6"><input class="string required form-control" id="booking_passengers_attributes_0_first_name" name="booking[passengers_attributes][0][first_name]" placeholder="First Name *" type="text" value="test" /></div>
+                            <div class="form-group string required booking_passengers_last_name col-xs-6"><input class="string required form-control" id="booking_passengers_attributes_0_last_name" name="booking[passengers_attributes][0][last_name]" placeholder="Last Name *" type="text" value="ted" /></div>
+                          </div>
+                          <div class='row'>
+                            <div class="form-group tel required booking_passengers_phone col-xs-12"><input class="string tel required form-control phone_input" id="booking_passengers_attributes_0_phone" name="booking[passengers_attributes][0][phone]" placeholder="Mobile Number *" type="text" value="(123) 123-1234" /></div>
+                          </div>
+                          <div class='row'>
+                            <div class="form-group email optional booking_passengers_email col-xs-12"><input class="string email optional form-control" id="booking_passengers_attributes_0_email" name="booking[passengers_attributes][0][email]" placeholder="Email Address" type="text" value="admin@admin.com" /></div>
+                          </div>
+                          <div class='row'>
+                            <div class="form-group integer required booking_passengers_weight col-xs-4"><input class="numeric integer required form-control" id="booking_passengers_attributes_0_weight" name="booking[passengers_attributes][0][weight]" placeholder="Passenger Weight (lbs) *" type="text" value="13" /></div>
+                            <div class='col-xs-1'>
+                              <span class='glyphicon glyphicon-question-sign' data-html='true' data-placement='right' data-title='Helicopter travel requires accurate weight for flight planning purposes. The pilot may weigh you prior to take-off to ensure the aircraft is balanced, so PLEASE be honest!' data-toggle='tooltip'></span>
+                            </div>
+                            <div class='col-xs-7'>
+                              &nbsp;
+                            </div>
+                          </div>
+                          <div class='row'>
+                            <label class='col-xs-12 control-label'>Will you require ground transportation?</label>
+                            <div class='col-xs-12'>
+                              <label class="radio-inline" for="booking_passengers_attributes_0_ground_transport_option_true"><input checked="checked" id="booking_passengers_attributes_0_ground_transport_option_true" name="booking[passengers_attributes][0][ground_transport_option]" type="radio" value="true" />
+                              Yes
+                              </label>
+                              <label class="radio-inline" for="booking_passengers_attributes_0_ground_transport_option_false"><input checked="checked" id="booking_passengers_attributes_0_ground_transport_option_false" name="booking[passengers_attributes][0][ground_transport_option]" type="radio" value="false" />
+                              No
+                              </label>
+                            </div>
+                          </div>
+                          <div class='row weight-holder'>
+                            <label class='col-xs-12 control-label'>Will you be bringing luggage?</label>
+                            <div class='col-xs-5'>
+                              <label class="radio-inline" for="booking_passengers_attributes_0_luggage_concierge_option_true"><input checked="checked" id="booking_passengers_attributes_0_luggage_concierge_option_true" name="booking[passengers_attributes][0][luggage_concierge_option]" type="radio" value="true" />
+                              Yes
+                              </label>
+                              <label class="radio-inline" for="booking_passengers_attributes_0_luggage_concierge_option_false"><input checked="checked" id="booking_passengers_attributes_0_luggage_concierge_option_false" name="booking[passengers_attributes][0][luggage_concierge_option]" type="radio" value="false" />
+                              No
+                              </label>
+                            </div>
+                            <div class='col-xs-7'>
+                              <span class='label label-primary myself-label'>Myself</span>
+                              <input id="booking_passengers_attributes_0__destroy" name="booking[passengers_attributes][0][_destroy]" type="hidden" value="false" />
+                              <a class="btn btn-default pull-right booking_remove_own_passenger" href="javascript:void(0)">REMOVE PASSENGER</a>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                      </div>
+                      <div id='booking_passengers'>
+                        <div class='nested-fields'>
+                          <input class="booking_passenger_reject_passenger" id="booking_passengers_attributes_1_reject_passenger" name="booking[passengers_attributes][1][reject_passenger]" type="hidden" value="" />
+                          <input id="booking_passengers_attributes_1_owner_of_booking" name="booking[passengers_attributes][1][owner_of_booking]" type="hidden" value="false" />
+                          <input id="booking_passengers_attributes_1_user_id" name="booking[passengers_attributes][1][user_id]" type="hidden" />
+                          <div class='row'>
+                            <div class="form-group string required booking_passengers_first_name col-xs-6"><input class="string required form-control" id="booking_passengers_attributes_1_first_name" name="booking[passengers_attributes][1][first_name]" placeholder="First Name *" type="text" /></div>
+                            <div class="form-group string required booking_passengers_last_name col-xs-6"><input class="string required form-control" id="booking_passengers_attributes_1_last_name" name="booking[passengers_attributes][1][last_name]" placeholder="Last Name *" type="text" /></div>
+                          </div>
+                          <div class='row'>
+                            <div class="form-group tel required booking_passengers_phone col-xs-12"><input class="string tel required form-control phone_input" id="booking_passengers_attributes_1_phone" name="booking[passengers_attributes][1][phone]" placeholder="Mobile Number *" type="text" /></div>
+                          </div>
+                          <div class='row'>
+                            <div class="form-group email optional booking_passengers_email col-xs-12"><input class="string email optional form-control" id="booking_passengers_attributes_1_email" name="booking[passengers_attributes][1][email]" placeholder="Email Address" type="text" /></div>
+                          </div>
+                          <div class='row'>
+                            <div class="form-group integer required booking_passengers_weight col-xs-4"><input class="numeric integer required form-control" id="booking_passengers_attributes_1_weight" name="booking[passengers_attributes][1][weight]" placeholder="Passenger Weight (lbs) *" type="text" /></div>
+                            <div class='col-xs-1'>
+                              <span class='glyphicon glyphicon-question-sign' data-html='true' data-placement='right' data-title='Helicopter travel requires accurate weight for flight planning purposes. The pilot may weigh you prior to take-off to ensure the aircraft is balanced, so PLEASE be honest!' data-toggle='tooltip'></span>
+                            </div>
+                            <div class='col-xs-7'>
+                              &nbsp;
+                            </div>
+                          </div>
+                          <div class='row'>
+                            <label class='col-xs-12 control-label'>Will you require ground transportation?</label>
+                            <div class='col-xs-12'>
+                              <label class="radio-inline" for="booking_passengers_attributes_1_ground_transport_option_true"><input checked="checked" id="booking_passengers_attributes_1_ground_transport_option_true" name="booking[passengers_attributes][1][ground_transport_option]" type="radio" value="true" />
+                              Yes
+                              </label>
+                              <label class="radio-inline" for="booking_passengers_attributes_1_ground_transport_option_false"><input checked="checked" id="booking_passengers_attributes_1_ground_transport_option_false" name="booking[passengers_attributes][1][ground_transport_option]" type="radio" value="false" />
+                              No
+                              </label>
+                            </div>
+                          </div>
+                          <div class='row weight-holder'>
+                            <label class='col-xs-12 control-label'>Will you be bringing luggage?</label>
+                            <div class='col-xs-5'>
+                              <label class="radio-inline" for="booking_passengers_attributes_1_luggage_concierge_option_true"><input checked="checked" id="booking_passengers_attributes_1_luggage_concierge_option_true" name="booking[passengers_attributes][1][luggage_concierge_option]" type="radio" value="true" />
+                              Yes
+                              </label>
+                              <label class="radio-inline" for="booking_passengers_attributes_1_luggage_concierge_option_false"><input checked="checked" id="booking_passengers_attributes_1_luggage_concierge_option_false" name="booking[passengers_attributes][1][luggage_concierge_option]" type="radio" value="false" />
+                              No
+                              </label>
+                            </div>
+                            <div class='col-xs-7'>
+                              <input id="booking_passengers_attributes_1__destroy" name="booking[passengers_attributes][1][_destroy]" type="hidden" value="false" /><a class="btn btn-default pull-right remove_fields dynamic" href="new?flight_id=4F9403680&amp;amp%3Bsearch_passengers_count=2#">REMOVE PASSENGER</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class='links'>
+                          <a class="btn btn-default add_fields" data-association-insertion-template="&lt;div class=&#39;nested-fields&#39;&gt;
+                            &lt;input class=&quot;booking_passenger_reject_passenger&quot; id=&quot;booking_passengers_attributes_new_passengers_reject_passenger&quot; name=&quot;booking[passengers_attributes][new_passengers][reject_passenger]&quot; type=&quot;hidden&quot; value=&quot;&quot; /&gt;
+                            &lt;input id=&quot;booking_passengers_attributes_new_passengers_owner_of_booking&quot; name=&quot;booking[passengers_attributes][new_passengers][owner_of_booking]&quot; type=&quot;hidden&quot; value=&quot;false&quot; /&gt;
+                            &lt;input id=&quot;booking_passengers_attributes_new_passengers_user_id&quot; name=&quot;booking[passengers_attributes][new_passengers][user_id]&quot; type=&quot;hidden&quot; /&gt;
+                            &lt;div class=&#39;row&#39;&gt;
+                              &lt;div class=&quot;form-group string required booking_passengers_first_name col-xs-6&quot;&gt;&lt;input class=&quot;string required form-control&quot; id=&quot;booking_passengers_attributes_new_passengers_first_name&quot; name=&quot;booking[passengers_attributes][new_passengers][first_name]&quot; placeholder=&quot;First Name *&quot; type=&quot;text&quot; /&gt;&lt;/div&gt;
+                              &lt;div class=&quot;form-group string required booking_passengers_last_name col-xs-6&quot;&gt;&lt;input class=&quot;string required form-control&quot; id=&quot;booking_passengers_attributes_new_passengers_last_name&quot; name=&quot;booking[passengers_attributes][new_passengers][last_name]&quot; placeholder=&quot;Last Name *&quot; type=&quot;text&quot; /&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&#39;row&#39;&gt;
+                              &lt;div class=&quot;form-group tel required booking_passengers_phone col-xs-12&quot;&gt;&lt;input class=&quot;string tel required form-control phone_input&quot; id=&quot;booking_passengers_attributes_new_passengers_phone&quot; name=&quot;booking[passengers_attributes][new_passengers][phone]&quot; placeholder=&quot;Mobile Number *&quot; type=&quot;text&quot; /&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&#39;row&#39;&gt;
+                              &lt;div class=&quot;form-group email optional booking_passengers_email col-xs-12&quot;&gt;&lt;input class=&quot;string email optional form-control&quot; id=&quot;booking_passengers_attributes_new_passengers_email&quot; name=&quot;booking[passengers_attributes][new_passengers][email]&quot; placeholder=&quot;Email Address&quot; type=&quot;text&quot; /&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&#39;row&#39;&gt;
+                              &lt;div class=&quot;form-group integer required booking_passengers_weight col-xs-4&quot;&gt;&lt;input class=&quot;numeric integer required form-control&quot; id=&quot;booking_passengers_attributes_new_passengers_weight&quot; name=&quot;booking[passengers_attributes][new_passengers][weight]&quot; placeholder=&quot;Passenger Weight (lbs) *&quot; type=&quot;text&quot; /&gt;&lt;/div&gt;
+                              &lt;div class=&#39;col-xs-1&#39;&gt;
+                                &lt;span class=&#39;glyphicon glyphicon-question-sign&#39; data-html=&#39;true&#39; data-placement=&#39;right&#39; data-title=&#39;Helicopter travel requires accurate weight for flight planning purposes. The pilot may weigh you prior to take-off to ensure the aircraft is balanced, so PLEASE be honest!&#39; data-toggle=&#39;tooltip&#39;&gt;&lt;/span&gt;
+                              &lt;/div&gt;
+                              &lt;div class=&#39;col-xs-7&#39;&gt;
+                                &amp;nbsp;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&#39;row&#39;&gt;
+                              &lt;label class=&#39;col-xs-12 control-label&#39;&gt;Will you require ground transportation?&lt;/label&gt;
+                              &lt;div class=&#39;col-xs-12&#39;&gt;
+                                &lt;label class=&quot;radio-inline&quot; for=&quot;booking_passengers_attributes_new_passengers_ground_transport_option_true&quot;&gt;&lt;input checked=&quot;checked&quot; id=&quot;booking_passengers_attributes_new_passengers_ground_transport_option_true&quot; name=&quot;booking[passengers_attributes][new_passengers][ground_transport_option]&quot; type=&quot;radio&quot; value=&quot;true&quot; /&gt;
+                                Yes
+                                &lt;/label&gt;
+                                &lt;label class=&quot;radio-inline&quot; for=&quot;booking_passengers_attributes_new_passengers_ground_transport_option_false&quot;&gt;&lt;input checked=&quot;checked&quot; id=&quot;booking_passengers_attributes_new_passengers_ground_transport_option_false&quot; name=&quot;booking[passengers_attributes][new_passengers][ground_transport_option]&quot; type=&quot;radio&quot; value=&quot;false&quot; /&gt;
+                                No
+                                &lt;/label&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&#39;row weight-holder&#39;&gt;
+                              &lt;label class=&#39;col-xs-12 control-label&#39;&gt;Will you be bringing luggage?&lt;/label&gt;
+                              &lt;div class=&#39;col-xs-5&#39;&gt;
+                                &lt;label class=&quot;radio-inline&quot; for=&quot;booking_passengers_attributes_new_passengers_luggage_concierge_option_true&quot;&gt;&lt;input checked=&quot;checked&quot; id=&quot;booking_passengers_attributes_new_passengers_luggage_concierge_option_true&quot; name=&quot;booking[passengers_attributes][new_passengers][luggage_concierge_option]&quot; type=&quot;radio&quot; value=&quot;true&quot; /&gt;
+                                Yes
+                                &lt;/label&gt;
+                                &lt;label class=&quot;radio-inline&quot; for=&quot;booking_passengers_attributes_new_passengers_luggage_concierge_option_false&quot;&gt;&lt;input checked=&quot;checked&quot; id=&quot;booking_passengers_attributes_new_passengers_luggage_concierge_option_false&quot; name=&quot;booking[passengers_attributes][new_passengers][luggage_concierge_option]&quot; type=&quot;radio&quot; value=&quot;false&quot; /&gt;
+                                No
+                                &lt;/label&gt;
+                              &lt;/div&gt;
+                              &lt;div class=&#39;col-xs-7&#39;&gt;
+                                &lt;input id=&quot;booking_passengers_attributes_new_passengers__destroy&quot; name=&quot;booking[passengers_attributes][new_passengers][_destroy]&quot; type=&quot;hidden&quot; value=&quot;false&quot; /&gt;&lt;a class=&quot;btn btn-default pull-right remove_fields dynamic&quot; href=&quot;#&quot;&gt;REMOVE PASSENGER&lt;/a&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          " data-association="passenger" data-associations="passengers" href="new?flight_id=4F9403680&amp;amp%3Bsearch_passengers_count=2#">ADD PASSENGER</a>
+                          <label class="checkbox-inline" for="booking_with_owner_of_booking"><input name="booking[with_owner_of_booking]" type="hidden" value="0" /><input checked="checked" id="booking_with_owner_of_booking" name="booking[with_owner_of_booking]" type="checkbox" value="1" />
+                          Add myself as passenger to booking
+                          </label>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class='row'>
+                        <div class='checkbox col-xs-offset-3'>
+                          <label>
+                            <input name="booking[terms_and_conditions]" type="hidden" value="0" /><input checked="checked" id="booking_terms_and_conditions" name="booking[terms_and_conditions]" type="checkbox" value="1" />
+                            I agree to
+                            <a href="http://localhost:3000/terms" target="_blank">the EvoLux Terms and Conditions</a>
+                          </label>
+                        </div>
+                      </div>
+                      <div class='row submit-holder'>
+                        <div class='col-xs-12 text-center'>
+                          <input class="btn btn-primary need_block" name="commit" type="submit" value="SUBMIT" />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class='tab-pane' id='payment_tab'>
+                </div>
+                <div class='tab-pane' id='confirm_tab'>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-xs-5 skyshare-details rightcol' id='form_trip_details'>
+          <script>
+            $(document).ready(function(){
+              window.scroll_images_initializator.initialize();
+            });
+          </script>
+          <h3 class='title grey'>Private Booking Details (One-Way)</h3>
+          <div class='row'>
+            <div class='col-xs-12 trip-info'>
+              <h4>DEPARTURE TRIP</h4>
+              <div class='trip-info-from-to'>
+                <div class='from col-xs-6'>
+                  <p class='placeimg'>
+                    from:
+                    <br>
+                    <span>St. Petersburg - Albert Whitted Airport (SPG)</span><br /><strong>St. Petersburg, FL</strong><br /><span>341 8th Avenue Southeast</span>
+                  </p>
+                  <p class='date'>
+                    on:
+                    <br>
+                    <strong>21 Aug 2014</strong>
+                  </p>
+                  <p class='time'>
+                    at:
+                    <br>
+                    <strong>12:00am</strong>
+                  </p>
+                </div>
+                <div class='trip-info-marker'></div>
+                <div class='to col-xs-6'>
+                  <p class='place'>
+                    to:
+                    <br>
+                    <span>Tampa International Airport (TPA)</span><br /><strong>Tampa, FL</strong><br /><span>4001 Bessie Coleman Boulevard</span>
+                  </p>
+                  <p>
+                    total flight time:
+                    <br>
+                    <strong>6hrs 12mins</strong>
+                    <sup class='grey'>
+                      <span class='glyphicon glyphicon-question-sign' data-html='true' data-placement='left' data-title='&lt;p&gt;&lt;strong&gt;FlightTime:&lt;/strong&gt; Leg 1 - 372 minutes, Reposition Time - 372 minutes&lt;/p&gt;&lt;p&gt;&lt;small&gt;Price includes Landing Fees and Total Flight Time&lt;/small&gt;&lt;/p&gt;' data-toggle='tooltip'></span>
+                    </sup>
+                  </p>
+                  <p>
+                    estimated arrival:
+                    <br>
+                    <strong>6:12am</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class='col-xs-12 seating'>
+              <h4>Seating</h4>
+              <div class='content'>
+                <div class='photo' id='passengers_photos'>
+                  <figure class='open_seat'>
+                    <img alt="Logo" src="./assets/defaults/middle_user-logo.png" />
+                    <figcaption>OPEN SEAT</figcaption>
+                  </figure>
+                  <figure class='open_seat'>
+                    <img alt="Logo" src="./assets/defaults/middle_user-logo.png" />
+                    <figcaption>OPEN SEAT</figcaption>
+                  </figure>
+                  <figure class='open_seat'>
+                    <img alt="Logo" src="./assets/defaults/middle_user-logo.png" />
+                    <figcaption>OPEN SEAT</figcaption>
+                  </figure>
+                  <figure class='open_seat'>
+                    <img alt="Logo" src="./assets/defaults/middle_user-logo.png" />
+                    <figcaption>OPEN SEAT</figcaption>
+                  </figure>
+                  <figure class='open_seat'>
+                    <img alt="Logo" src="./assets/defaults/middle_user-logo.png" />
+                    <figcaption>OPEN SEAT</figcaption>
+                  </figure>
+                  <figure class='open_seat'>
+                    <img alt="Logo" src="./assets/defaults/middle_user-logo.png" />
+                    <figcaption>OPEN SEAT</figcaption>
+                  </figure>
+                  <figure class='open_seat'>
+                    <img alt="Logo" src="./assets/defaults/middle_user-logo.png" />
+                    <figcaption>OPEN SEAT</figcaption>
+                  </figure>
+                </div>
+                <div class='seating-info'>
+                  <p class='col-xs-4'>
+                    On-Board:
+                    <br>
+                    <strong id='detail_passenger_seats_goal'>0</strong>
+                  </p>
+                  <p class='col-xs-4'>
+                    Price:
+                    <br>
+                    <strong id='detail_target_price'>$409.01</strong>
+                  </p>
+                  <p class='col-xs-4'>
+                    Combined Weight:
+                    <br>
+                    <strong id='detail_target_price'>0</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class='col-xs-12'>
+              <h4>Operator Information</h4>
+              <div class='operator-info'>
+                <div class='pull-right aircraft-img-carousel' style='width:197px;margin-left:5px'>
+                  <div class='aircraft-img-scroll'>
+                    <img alt="Aircraft image" src="./assets/defaults/small_missing.png" />
+                  </div>
+                </div>
+                <p>
+                  Operator:
+                  <strong>
+                    
+                    operator123
+                  </strong>
+                  <br>
+                  Operator Location:
+                  <strong>streer1, streer2, city, Florida, 12345</strong>
+                  <br>
+                  Quality Rating:
+                  
+                  <br>
+                </p>
+                <p>
+                  Helicopter:
+                  <strong>AgustaWestland AW109 Power</strong>
+                  <br>
+                  Passenger Capacity:
+                  <strong>7</strong>
+                  <br>
+                  <small>errww</small>
+                </p>
+                <p>
+                  <strong>Please be aware:</strong>
+                  <br>
+                  <small>In the event that this aircraft is not available at the time of the flight, after the Private Booking reservation has been booked, EvoLux reserves the right to replace your flight with an equal or greater value aircraft, at the same price to you. If by chance this happens to you, enjoy the upgrade!</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class='container-fluid'>
+        <ul class='nav nav-social'>
+          <li><a href="http://instagram.com/evoluxtransportation"><img alt="Instagram" src="./assets/icon-is-footer.png" /></a></li>
+          <li><a href="https://www.facebook.com/evoluxtransportation"><img alt="Facebook" src="./assets/icon-fb-footer.png" /></a></li>
+          <li><a href="https://www.linkedin.com/company/evolux-transportation-llc-?trk=company_name"><img alt="LinkedIn" src="./assets/icon-in-footer.png" /></a></li>
+          <li><a href="https://twitter.com/evo_lux"><img alt="Twitter" src="./assets/icon-tw-footer.png" /></a></li>
+          <li><img alt="FAA" src="./assets/135small.png" /></li>
+        </ul>
+        <ul class='nav nav-footer'>
+          <li><a href="http://localhost:3000/about/">About</a></li>
+          <li><a href="http://localhost:3000/services/">Services</a></li>
+          <li><a href="http://localhost:3000/community/">Community</a></li>
+          <li><a href="http://localhost:3000/operators/">Operators</a></li>
+          <li><a href="http://localhost:3000/contact/">Contact</a></li>
+          <li><a href="http://localhost:3000/faq/">FAQ</a></li>
+          <li><a href="http://blog.evo-lux.com/">Blog</a></li>
+        </ul>
+      </div>
+      <div class='copy'>
+        2014 © EvoLux Transportation, LLC
+      </div>
+    </footer>
+    
+  </body>
+</html>

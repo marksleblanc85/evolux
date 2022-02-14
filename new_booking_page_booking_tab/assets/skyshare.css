@@ -1,0 +1,523 @@
+/* line 5, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.invite-via-social-row {
+  margin: 0 0 10px 0;
+}
+
+/* line 8, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.invite-via-social {
+  background: #3b769f;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+}
+
+/* line 13, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.invite-via-social h3 {
+  color: #fff;
+  margin: 7px 45px 5px 5px;
+  float: left;
+  letter-spacing: 1px;
+}
+
+/* line 19, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.invite-via-social label.share-on-network {
+  background: url(icon-evolux-38.png) no-repeat left center;
+  margin: 0 19px 0 0;
+  padding: 10px 0 10px 40px;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+/* line 30, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.invite-via-social label.share-on-network input {
+  margin: 4px 5px 0 0;
+  padding: 0;
+  float: left;
+}
+
+/* line 35, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.invite-via-social .social-link {
+  margin: 4px 20px 0 0;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 34px;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+/* line 44, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.invite-via-social .social-link img {
+  margin: 0 8px 0 0;
+  float: left;
+  line-height: 34px;
+}
+
+/* line 51, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.chat-box {
+  background: #d7d7d7;
+  padding: 30px 15px 0;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+/* line 57, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.chat-box form.form-comments {
+  overflow: hidden;
+  margin: 0 0 34px;
+}
+
+/* line 61, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.chat-box form.form-comments input[type=text] {
+  border: 2px solid #b1b5b8;
+  height: 35px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 66, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.chat-box form.form-comments button[type=submit] {
+  padding: 7px 40px;
+}
+
+/* line 69, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.chat-box .item {
+  background: #eee;
+  overflow: hidden;
+  margin: 0 15px 25px;
+}
+
+/* line 74, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.chat-box .item .image_box {
+  float: left;
+  width: 65px;
+  margin-right: 15px;
+}
+
+/* line 79, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.chat-box .item img {
+  height: 65px;
+  width: 65px;
+}
+
+/* line 83, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.chat-box .item span.name {
+  position: relative;
+  top: 10px;
+  font-weight: bold;
+}
+
+/* line 88, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.chat-box .item span.posted_at {
+  float: right;
+  font-style: italic;
+  margin: 12px 12px 0 0;
+}
+
+/* line 93, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.chat-box .item .message {
+  margin: 15px 12px 10px;
+}
+
+/* line 96, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.skyshare-details {
+  margin: 0 0 30px;
+}
+
+/* line 99, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.skyshare-details .who-whatch {
+  margin: 0 0 5px;
+  white-space: nowrap;
+  overflow-x: auto;
+  text-align: right;
+}
+
+/* line 105, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.skyshare-details .who-whatch p {
+  text-transform: uppercase;
+  margin: 19px 0 29px;
+  display: inline-block;
+}
+
+/* line 110, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.skyshare-details .who-whatch a {
+  margin: 0 0 5px 10px;
+  display: inline-block;
+}
+
+/* line 114, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.skyshare-details h4 {
+  background: #4e4e4e;
+  margin: 0;
+  color: #fff;
+  padding: 8px 13px 8px 30px;
+}
+
+/* line 120, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.skyshare-details h4 span.glyphicon {
+  font-size: 12px;
+  margin: 4px 0 0;
+}
+
+/* line 124, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.trip-info-from-to {
+  display: table;
+  overflow: hidden;
+}
+
+/* line 128, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.trip-info strong {
+  font-size: 1.78em;
+}
+
+/* line 131, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.trip-info .glyphicon strong {
+  font-size: 1em;
+}
+
+/* line 136, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.trip-info p.place strong,
+.trip-info p.place span,
+.trip-info p.date strong {
+  text-transform: uppercase;
+}
+
+/* line 140, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.trip-info p.date strong,
+.trip-info p.time strong {
+  color: #dbdbdb;
+}
+
+/* line 143, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.trip-info sup.grey {
+  color: #656565;
+  font-size: 1em;
+}
+
+/* line 147, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.trip-info .from {
+  float: none;
+  display: table-cell;
+  background: #3b769f;
+  color: #fff;
+  padding: 15px 20px 20px 30px;
+  z-index: 1;
+}
+
+/* line 155, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.trip-info .trip-info-marker {
+  float: none;
+  content: '';
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 11.5px 0 11.5px 11px;
+  border-color: transparent transparent transparent #3b759f;
+  position: absolute;
+  top: 112px;
+  z-index: 10;
+}
+
+/* line 167, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.trip-info .to {
+  float: none;
+  background: #d7d7d7;
+  color: #333;
+  padding: 15px 20px 20px 22px;
+  display: table-cell;
+}
+
+/* line 174, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.skyshare.flights-box a.btn {
+  border-radius: 5px;
+}
+
+/* line 177, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.skyshare-details .operator-info {
+  background: #d7d7d7;
+  padding: 16px 30px;
+}
+
+/* line 181, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.skyshare-details .operator-info p {
+  margin: 0 0 15px;
+}
+
+/* line 184, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating {
+  padding-top: 2px;
+}
+
+/* line 187, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .content {
+  background: #d7d7d7;
+}
+
+/* line 190, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .photo {
+  overflow: hidden;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+/* line 194, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .photo figure {
+  -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 4px 1%;
+  width: 20%;
+  min-height: 117px;
+}
+
+/* line 201, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .photo figure:first-child {
+  margin-left: 0;
+}
+
+/* line 204, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .photo img {
+  width: 100%;
+}
+
+/* line 208, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .photo figcaption {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/* line 213, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .skyshare-confirmation-deadline {
+  background: #3b769f;
+  color: #fff;
+  padding: 10px 20px 10px 30px;
+  z-index: 1;
+  font-size: 1.14em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 222, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .seating-info {
+  overflow: hidden;
+}
+
+/* line 225, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .seating-info p {
+  padding: 17px 0 10px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  color: #2e2e2e;
+  border-left: 1px solid #c5c5c5;
+}
+
+/* line 234, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .seating-info p:first-child {
+  border: none;
+}
+
+/* line 237, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .seating-info p strong {
+  font-size: 1.87em;
+  line-height: 1em;
+}
+
+/* line 241, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .seating-info p .small-seating-info {
+  font-size: 0.7em;
+  line-height: 0.9em;
+}
+
+/* line 245, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .deadline {
+  background: #3b769f;
+  padding: 25px 0;
+}
+
+/* line 249, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.seating .deadline p {
+  color: #fff;
+  font-size: 1.14em;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 257, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.shared-title {
+  min-height: 80px;
+  margin: 20px 0;
+}
+
+/* line 262, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+.shared-title h2 {
+  float: left;
+}
+
+/* line 266, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#skyshares-filter {
+  float: right;
+  min-width: 920px;
+  height: 60px;
+  background: #3b769f;
+  padding: 15px 0 15px 15px;
+  margin-right: 15px;
+}
+
+/* line 276, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#skyshares-filter .offset-right {
+  margin-right: 12px;
+}
+
+/* line 280, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#skyshares-filter .offset-both {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+/* line 285, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#skyshares-filter .filter-label {
+  color: white;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+/* line 291, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#skyshares-filter select.form-control {
+  width: inherit !important;
+}
+
+/* line 295, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#skyshares-filter input.form-control {
+  width: auto !important;
+  max-width: 200px;
+}
+
+/* line 300, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#skyshares-filter .column {
+  padding-right: 0px;
+}
+
+/* line 304, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .img-holder {
+  float: left;
+  width: 110px;
+}
+
+/* line 309, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .img-holder img {
+  height: 225px;
+  max-width: initial !important;
+}
+
+/* line 313, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .skyshare {
+  height: 225px;
+  margin-bottom: 33px;
+}
+
+/* line 317, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details {
+  background: #d4d4d4;
+  float: left;
+  height: 225px;
+  width: 290px;
+}
+
+/* line 323, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details h3 {
+  margin: 0;
+  background: #3b769f;
+  padding: 13px 15px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* line 330, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details .content {
+  padding: 10px 15px;
+  overflow: hidden;
+  height: 175px;
+}
+
+/* line 335, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details .content p {
+  line-height: 18px;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin: 0;
+}
+
+/* line 343, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details .content .view {
+  font-size: 11px;
+}
+
+/* line 346, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details .content .view-link {
+  position: absolute;
+  bottom: 10px;
+  right: 44px;
+}
+
+/* line 352, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details .content p strong {
+  font-size: 18px;
+}
+
+/* line 355, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details .small-price {
+  font-size: 11px;
+}
+
+/* line 358, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details .content p .small-price strong {
+  font-size: 11px;
+}
+
+/* line 362, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details .passengers {
+  margin: 5px 0 2px;
+}
+
+/* line 365, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details .passengers a {
+  display: block;
+  width: 31px;
+  height: 31px;
+  overflow: hidden;
+  margin-right: 2px;
+  background: #eee;
+  display: inline-block;
+}
+
+/* line 375, /Users/ghost/projects/evolux/app/assets/stylesheets/skyshare.css.scss */
+#public-skyshares .details .passengers img {
+  vertical-align: inherit;
+  width: 31px;
+  height: 31px;
+}
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .seating .photo figure {width:20%}
+}
+
+/* 4.4 - Mobile Landscape */
+@media only screen and (min-width: 510px) and (max-width: 629px) {
+
+  .seating .photo figure {width:25%}
+}
+
+/* 4.5 - Mobile Portrait */
+@media only screen and (max-width: 509px){
+
+  .seating .photo figure {width:50%}
+}

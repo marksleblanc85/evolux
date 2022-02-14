@@ -1,0 +1,379 @@
+/*
+
+Uniform Theme: Uniform Default
+Version: 1.8
+By: Josh Pyles
+License: MIT License
+---
+For use with the Uniform plugin:
+http://uniformjs.com/
+
+*/
+/* General settings */
+/* line 14, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.selector, div.selector span, div.checker span, div.radio span, div.uploader, div.uploader span.action, div.button, div.button span {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 16, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.selector, div.checker, div.button, div.radio, div.uploader {
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+  /* Keeping this as :focus to remove browser styles */
+}
+
+/* line 23, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.selector:focus, div.checker:focus, div.button:focus, div.radio:focus, div.uploader:focus {
+  outline: 0;
+}
+
+/* line 25, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.selector, div.selector *, div.radio, div.radio *, div.checker, div.checker *, div.uploader, div.uploader *, div.button, div.button * {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 29, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+.highContrastDetect {
+  width: 0px;
+  height: 0px;
+}
+
+/* Input & Textarea */
+/* line 36, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+input.uniform-input,
+select.uniform-multiselect,
+textarea.uniform {
+  padding: 3px;
+  outline: 0;
+}
+
+/* Remove default webkit and possible mozilla .search styles.
+ * Keeping this as :active to remove browser styles */
+/* line 47, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.checker input,
+input[type="search"],
+input[type="search"]:active {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+/* Select */
+/* line 52, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.selector {
+  line-height: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0 0 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 60, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.selector span {
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  border: none;
+  -webkit-box-shadow: 0 -1px 0 #d6dcb4;
+  -moz-box-shadow: 0 -1px 0 #d6dcb4;
+  box-shadow: 0 -1px 0 #d6dcb4;
+  background: white url(select-arrow.png) no-repeat right top;
+  border: 1px solid #ccc;
+  width: 80%;
+  height: 30px;
+  line-height: 28px;
+  padding: 0 30px 0 0;
+  text-indent: 15px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+/* line 77, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.selector.fixedWidth {
+  width: 190px;
+}
+
+/* line 79, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.selector.fixedWidth span {
+  width: 155px;
+}
+
+/* line 81, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.selector select {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  border: none;
+  background-color: #ffffff;
+  background-image: none;
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 0px;
+  width: 100%;
+}
+
+/* Checkbox */
+/* line 103, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.checker {
+  position: relative;
+}
+
+/* line 105, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.checker, div.checker span, div.checker input {
+  width: 17px;
+  height: 17px;
+}
+
+/* line 108, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.checker span {
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  text-align: center;
+  background: url(checkbox-btns.png) no-repeat left top;
+}
+
+/* line 115, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.checker span.checked {
+  background-position: 0 -18px;
+}
+
+/* line 117, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.checker input {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  border: none;
+  background: none;
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+/* Radio */
+/* line 137, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.radio {
+  position: relative;
+}
+
+/* line 139, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.radio, div.radio span, div.radio input {
+  width: 23px;
+  height: 23px;
+}
+
+/* line 142, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.radio span {
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  text-align: center;
+  background: url(radio-btns.png) no-repeat left top;
+}
+
+/* line 149, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.radio span.checked {
+  background-position: 0 -24px;
+}
+
+/* line 151, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.radio input {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  border: none;
+  background: none;
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  text-align: center;
+}
+
+/* line 162, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.radio.active span {
+  background-position: -18px -18px -279px;
+}
+
+/* line 164, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.radio.active span.checked {
+  background-position: -90px -279px;
+}
+
+/*div.radio.hover span, div.radio.focus span {
+  background-position: -36px -36px -279px; }
+  div.radio.hover span.checked, div.radio.focus span.checked {
+    background-position: -108px -279px; }
+div.radio.hover.active span, div.radio.focus.active span {
+  background-position: -54px -279px; }
+  div.radio.hover.active span.checked, div.radio.focus.active span.checked {
+    background-position: -126px -279px; }
+div.radio.disabled span, div.radio.disabled.active span {
+  background-position: -144px -279px; }
+  div.radio.disabled span.checked, div.radio.disabled.active span.checked {
+    background-position: -162px -279px; }*/
+/* Uploader */
+/* line 180, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader {
+  background-position: 0 -297px;
+  height: 28px;
+  width: 190px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 187, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader span.action {
+  background-position: right -409px;
+  height: 28px;
+  line-height: 28px;
+  width: 82px;
+  text-align: center;
+  float: left;
+  display: inline;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* line 197, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader span.filename {
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  float: left;
+  cursor: default;
+  height: 24px;
+  margin: 2px 0 2px 2px;
+  line-height: 24px;
+  width: 85px;
+  padding: 0 10px;
+}
+
+/* line 209, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader input {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  cursor: default;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 222, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader.active span.action {
+  background-position: right -465px;
+}
+
+/* line 224, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader.hover, div.uploader.focus {
+  background-position: 0 -353px;
+}
+
+/* line 226, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader.hover span.action, div.uploader.focus span.action {
+  background-position: right -437px;
+}
+
+/* line 228, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader.hover.active span.action, div.uploader.focus.active span.action {
+  background-position: right -493px;
+}
+
+/* line 230, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader.disabled, div.uploader.disabled.active {
+  background-position: 0 -325px;
+}
+
+/* line 232, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader.disabled span.action, div.uploader.disabled.active span.action {
+  background-position: right -381px;
+}
+
+/* PRESENTATION */
+/* Select */
+/* line 242, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.selector.disabled span, div.selector.disabled.active span {
+  color: #bbb;
+}
+
+/* Checker */
+/* line 246, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.checker {
+  margin-right: 3px;
+  margin-top: 1px;
+  float: left;
+}
+
+/* Radio */
+/* line 252, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.radio {
+  margin-right: 7px;
+  float: left;
+  margin-top: 0px;
+  padding-top: 0 !important;
+}
+
+/* Uploader */
+/* line 260, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader span.action {
+  text-shadow: white 0px 1px 0px;
+  background-color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* line 265, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader span.filename {
+  color: #777;
+  border-right: solid 1px #bbbbbb;
+  font-size: 11px;
+}
+
+/* line 269, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader.disabled span.action, div.uploader.disabled.active span.action {
+  color: #aaa;
+}
+
+/* line 271, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+div.uploader.disabled span.filename, div.uploader.disabled.active span.filename {
+  border-color: #ddd;
+  color: #aaa;
+}
+
+/* line 275, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+input.uniform-input, input.uniform-input:focus {
+  background-color: #fff;
+}
+
+/* line 278, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+form input.calendar {
+  background: white url(input-calendar-bg.png) no-repeat right top;
+}
+
+/* line 279, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+form label.radio-inline {
+  line-height: 23px;
+}
+
+/* line 280, /Users/ghost/projects/evolux/app/assets/stylesheets/uniform.css.scss */
+form label.radio-inline:first-child {
+  padding-left: 0;
+}

@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html itemscope='' itemtype='http://schema.org/Article' lang='en' xmlns:og='http://ogp.me/ns#'>
+  <head>
+    <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <meta charset='UTF-8'>
+    <meta content='user-scalable = yes' name='viewport'>
+    
+    <!--[if IE]>
+      <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src='//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script>
+      <script src='//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js'></script>
+    <![endif]-->
+    <title>EvoLux Transportation</title>
+    <link href="assets/application.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.core.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.theme.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.accordion.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.menu.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.autocomplete.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.button.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.datepicker.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.resizable.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.dialog.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.progressbar.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.selectable.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.slider.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.spinner.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.tabs.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.tooltip.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.base.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/jquery.ui.all.css?body=1" media="all" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/bootstrap.css" media="all">
+    <link href="assets/bootstrapValidator.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/uniform.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/shared/style.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/style.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/operator/style.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/google_maps.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/home.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/skyshare.css?body=1" media="all" rel="stylesheet" />
+    <link href="assets/trips.css?body=1" media="all" rel="stylesheet" />
+    <script type="text/javascript">
+    //<![CDATA[
+    window.gon={};gon.vertiports_names=["Marriott Key Largo Bay","Turnberry Isle Resort - Aventura","Nassau International Airport, Bahamas (MYNN)","Bimini Resort Bahamas","Boca Raton Airport (BCT)","Marriott Beachside Key West","Ft. Myers - Southwest Florida International Airport (RSW)","Waldorf Astoria Orlando","Naples Airport (APF)","Homestead Raceway","Ft. Lauderdale Executive Airport (FXE)","Ocean Reef Club - Key Largo (07FA)","Doral Golf Resort & Spa","Ft. Lauderdale Hollywood Intl (FLL)","Kissimmee Gateway Airport (ISM) - Orlando","Lantana Airport (LNA)","Marathon Key Airport (MTH)","Miami International Airport (MIA)","Opa Locka Airport (OPF)","Palm Beach Intl (PBI)","North Perry Airport (HWO)","Pompano Air Park (PMP)","Key West Airport (EYW)","Leesburg Executive Airport, VA","Penn's Landing Heliport, Philadelphia, PA","Dulles International Airport, Washington  DC","Philadelphia International Airport, PA","Wings Field Airport, Philadelphia, PA","Trump's Castle Heliport, Atlantic City, NJ","Steel Pier Heliport, Atlantic City, NJ","Downtown Manhattan, Wall St. Heliport, NYC, NY","Teterboro Airport, NJ","La Guardia Airport, NYC, NY","Newark Liberty International Airport, NJ","John F Kennedy International Airport, NY","Pier 7 Heliport, Baltimore, MD","PGA National - Palm Beach Gardens","Southampton Heliport, NY","Francis Gabreski Airport, Westhampton Beach, NY","Montauk Airport, NY","Gulfstream Race Park - Hallandale Beach","North Palm Beach County (F45)","Orlando Executive Airport (ORL)","Gainesville Regional Airport (GNV)","Ft. Lauderdale Downtown Helistop (DT1)","Floridian Golf & Yacht Club (65FL)","Ft. Myers - Page Field Airport (FMY)","Marco Island Executive Airport (MRK)","Orlando Apopka Airport (X04)","Miami Seaquarium","Stuart, FL - Witham Field Airport (SUA)","Schnebly Redlands Winery - Homestead","Ocean City Municipal Airport, MD","East Hampton Airport, NY","Elizabeth Field Airport, Fishers Island, NY","Groton-New London Airport, CT","Igor Sikorsky Memorial Airport, Bridgeport, CT","Tweed New Haven Airport, CT","Westchester County Airport, White Plains, NY","Danbury Municipal Airport, CT","West 30th St. Heliport, NYC, NY","Yalesville Heliport, CT","Republic Airport, Farmingdale, NY ","Northeast Philadelphia Airport, PA","Miccosukee Resort & Country Club","East 34th Street Heliport, NYC, NY","Foxwoods Resort & Casino, CT","South Benson Marina, Fairfield, CT","Dutchess County Airport, Poughkeepsie, NY","Cambridge-Dorchester Airport, MD","Tamiami Executive Airport (TMB)","Captain's Cove Seaport, Bridgeport, CT","urrd","Tampa International Airport (TPA)","Peter O Knight Airport, Tampa, FL","St. Petersburg - Albert Whitted Airport (SPG)","Test","ffjfjf","kggjf","American Airlines Arena - Bayside Miami","Block Island State Airport, RI","Miami Marlins Ballpark","Atlantic City International Airport, NJ","Palm Beach Polo Club - Wellington"];gon.markers={"vertiports":[{"id":62,"lat":"27.9154444","lng":"-82.4493889","title":"Peter O Knight Airport, Tampa, FL","location":"Tampa, FL","icon":"/assets/icon-heliport-map.png","image":"","infoWindow":"\u003cdiv class='info_window_aircrafts' style=\"background-image: url('/assets/gmap-marker-infowindow-bg-1.png')\"\u003e\n  \u003cdiv class='vertiport'\u003e\u003c/div\u003e\n  \u003cdiv class='arrow_up' style=\"background: url('/assets/gmap-marker-infowindow-bg-3.png')\"\u003e\n    \u003cimg alt=\"Gmap marker infowindow arrowup\" class=\"first\" src=\"/assets/gmap-marker-infowindow-arrowup.png\" /\u003e\n    \u003cimg alt=\"Gmap marker infowindow arrowup\" class=\"second\" src=\"/assets/gmap-marker-infowindow-arrowup.png\" /\u003e\n  \u003c/div\u003e\n  \u003cul class='aircrafts'\u003e\n    \u003cli class='aircraft odd' id='38'\u003e\n      \u003cp\u003e\n        \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"UNIVERSAL AIR SERVICE - ECOLUX - BELL 206L-4\" data-toggle=\"tooltip\"\u003eUNIVERSAL AIR SERVICE - ECOLUX - BELL 206L-4\u003c/span\u003e\n      \u003c/p\u003e\n      \u003cp\u003e\n        SkyLimo -\n        \u003cstrong\u003e\n          \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$5,034.38\n          \" data-toggle=\"tooltip\"\u003e$5,034.38\n          \u003c/span\u003e\n        \u003c/strong\u003e\n        \u003cp\u003e\n          \u003cspan\u003eSkyShare - as low as\u003c/span\u003e\n          \u003cstrong\u003e\n            \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$1,069.81\n            \" data-toggle=\"tooltip\"\u003e$1,069.81\n            \u003c/span\u003e\n          \u003c/strong\u003e\n          \u003cspan\u003eper seat\u003c/span\u003e\n        \u003c/p\u003e\n      \u003c/p\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n  \u003cdiv class='arrow_down' style=\"background: url('/assets/gmap-marker-infowindow-bg-3.png')\"\u003e\n    \u003cdiv class='arrow_content'\u003e\n      \u003cimg alt=\"Gmap marker infowindow arrowdown\" class=\"first\" src=\"/assets/gmap-marker-infowindow-arrowdown.png\" /\u003e\n      \u003cspan class='more'\u003e\u003c/span\u003e\n      \u003cimg alt=\"Gmap marker infowindow arrowdown\" class=\"second\" src=\"/assets/gmap-marker-infowindow-arrowdown.png\" /\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n","aircrafts":1}],"default_image":"/assets/defaults/gmap-missing-vertiport-image.png","helicopter_icon":"/assets/icon-helicopter-map.png","departure_icon":"/assets/icon-departure-map.png","departure_number_icon":"/assets/icon-departure-number-map.png","arrival_icon":"/assets/icon-arrival-map.png","arrival_number_icon":"/assets/icon-arrival-number-map.png","arrival":{"id":2,"lat":"27.9754722","lng":"-82.53325","title":"Tampa International Airport (TPA)","location":"Tampa, FL","icon":"/assets/icon-heliport-map.png","image":"https://dev-local-evolux.s3.amazonaws.com/system/images/image/image/74/small_ubuntuz-3.png","infoWindow":"\u003cdiv class='info_window_aircrafts' style=\"background-image: url('/assets/gmap-marker-infowindow-bg-1.png')\"\u003e\n  \u003cdiv class='vertiport'\u003e\u003c/div\u003e\n\u003c/div\u003e\n","aircrafts":0},"departure":{"id":37,"lat":"27.7651111","lng":"-82.6269722","title":"St. Petersburg - Albert Whitted Airport (SPG)","location":"St. Petersburg, FL","icon":"/assets/icon-heliport-map.png","image":"","infoWindow":"\u003cdiv class='info_window_aircrafts' style=\"background-image: url('/assets/gmap-marker-infowindow-bg-1.png')\"\u003e\n  \u003cdiv class='vertiport'\u003e\u003c/div\u003e\n  \u003cdiv class='arrow_up' style=\"background: url('/assets/gmap-marker-infowindow-bg-3.png')\"\u003e\n    \u003cimg alt=\"Gmap marker infowindow arrowup\" class=\"first\" src=\"/assets/gmap-marker-infowindow-arrowup.png\" /\u003e\n    \u003cimg alt=\"Gmap marker infowindow arrowup\" class=\"second\" src=\"/assets/gmap-marker-infowindow-arrowup.png\" /\u003e\n  \u003c/div\u003e\n  \u003cul class='aircrafts'\u003e\n    \u003cli class='aircraft odd' id='3'\u003e\n      \u003cp\u003e\n        \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"OPERATOR123 - ECOLUX - AGUSTAWESTLAND AW119 KE\" data-toggle=\"tooltip\"\u003eOPERATOR123 - ECOLUX - AGUSTAWESTLAND AW119 KE\u003c/span\u003e\n      \u003c/p\u003e\n      \u003cp\u003e\n        SkyLimo -\n        \u003cstrong\u003e\n          \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$68.77\n          \" data-toggle=\"tooltip\"\u003e$68.77\n          \u003c/span\u003e\n        \u003c/strong\u003e\n        \u003cp\u003e\n          \u003cspan\u003eSkyShare - as low as\u003c/span\u003e\n          \u003cstrong\u003e\n            \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$79.09\n            \" data-toggle=\"tooltip\"\u003e$79.09\n            \u003c/span\u003e\n          \u003c/strong\u003e\n          \u003cspan\u003eper seat\u003c/span\u003e\n        \u003c/p\u003e\n      \u003c/p\u003e\n    \u003c/li\u003e\n    \u003cli class='aircraft' id='2'\u003e\n      \u003cp\u003e\n        \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"OPERATOR123 - ECOLUX - AGUSTAWESTLAND AW109 POWER\" data-toggle=\"tooltip\"\u003eOPERATOR123 - ECOLUX - AGUSTAWESTLAND AW109 POWER\u003c/span\u003e\n      \u003c/p\u003e\n      \u003cp\u003e\n        SkyLimo -\n        \u003cstrong\u003e\n          \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$157.06\n          \" data-toggle=\"tooltip\"\u003e$157.06\n          \u003c/span\u003e\n        \u003c/strong\u003e\n        \u003cp\u003e\n          \u003cspan\u003eSkyShare - as low as\u003c/span\u003e\n          \u003cstrong\u003e\n            \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$28.61\n            \" data-toggle=\"tooltip\"\u003e$28.61\n            \u003c/span\u003e\n          \u003c/strong\u003e\n          \u003cspan\u003eper seat\u003c/span\u003e\n        \u003c/p\u003e\n      \u003c/p\u003e\n    \u003c/li\u003e\n    \u003cli class='aircraft odd' id='1'\u003e\n      \u003cp\u003e\n        \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"OPERATOR123 - ECOLUX - AGUSTAWESTLAND AW109 POWER\" data-toggle=\"tooltip\"\u003eOPERATOR123 - ECOLUX - AGUSTAWESTLAND AW109 POWER\u003c/span\u003e\n      \u003c/p\u003e\n      \u003cp\u003e\n        SkyLimo -\n        \u003cstrong\u003e\n          \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$753.36\n          \" data-toggle=\"tooltip\"\u003e$753.36\n          \u003c/span\u003e\n        \u003c/strong\u003e\n        \u003cp\u003e\n          \u003cspan\u003eSkyShare - as low as\u003c/span\u003e\n          \u003cstrong\u003e\n            \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$137.22\n            \" data-toggle=\"tooltip\"\u003e$137.22\n            \u003c/span\u003e\n          \u003c/strong\u003e\n          \u003cspan\u003eper seat\u003c/span\u003e\n        \u003c/p\u003e\n      \u003c/p\u003e\n    \u003c/li\u003e\n    \u003cli class='aircraft' id='69'\u003e\n      \u003cp\u003e\n        \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"AIROCEAN AVIATION, LLC - ECOLUX - AGUSTAWESTLAND AW119 KE\" data-toggle=\"tooltip\"\u003eAIROCEAN AVIATION, LLC - ECOLUX - AGUSTAWESTLAND AW119 KE\u003c/span\u003e\n      \u003c/p\u003e\n      \u003cp\u003e\n        SkyLimo -\n        \u003cstrong\u003e\n          \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$3,171.68\n          \" data-toggle=\"tooltip\"\u003e$3,171.68\n          \u003c/span\u003e\n        \u003c/strong\u003e\n        \u003cp\u003e\n          \u003cspan\u003eSkyShare - as low as\u003c/span\u003e\n          \u003cstrong\u003e\n            \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$577.70\n            \" data-toggle=\"tooltip\"\u003e$577.70\n            \u003c/span\u003e\n          \u003c/strong\u003e\n          \u003cspan\u003eper seat\u003c/span\u003e\n        \u003c/p\u003e\n      \u003c/p\u003e\n    \u003c/li\u003e\n    \u003cli class='aircraft odd' id='37'\u003e\n      \u003cp\u003e\n        \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"UNIVERSAL AIR SERVICE - ECOLUX - BELL 206L-4\" data-toggle=\"tooltip\"\u003eUNIVERSAL AIR SERVICE - ECOLUX - BELL 206L-4\u003c/span\u003e\n      \u003c/p\u003e\n      \u003cp\u003e\n        SkyLimo -\n        \u003cstrong\u003e\n          \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$3,470.42\n          \" data-toggle=\"tooltip\"\u003e$3,470.42\n          \u003c/span\u003e\n        \u003c/strong\u003e\n        \u003cp\u003e\n          \u003cspan\u003eSkyShare - as low as\u003c/span\u003e\n          \u003cstrong\u003e\n            \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$737.46\n            \" data-toggle=\"tooltip\"\u003e$737.46\n            \u003c/span\u003e\n          \u003c/strong\u003e\n          \u003cspan\u003eper seat\u003c/span\u003e\n        \u003c/p\u003e\n      \u003c/p\u003e\n    \u003c/li\u003e\n    \u003cli class='aircraft' id='32'\u003e\n      \u003cp\u003e\n        \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"AIROCEAN AVIATION, LLC - ECOLUX - BELL 206-BIII JETRANGER\" data-toggle=\"tooltip\"\u003eAIROCEAN AVIATION, LLC - ECOLUX - BELL 206-BIII JETRANGER\u003c/span\u003e\n      \u003c/p\u003e\n      \u003cp\u003e\n        SkyLimo -\n        \u003cstrong\u003e\n          \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$5,070.30\n          \" data-toggle=\"tooltip\"\u003e$5,070.30\n          \u003c/span\u003e\n        \u003c/strong\u003e\n        \u003cp\u003e\n          \u003cspan\u003eSkyShare - as low as\u003c/span\u003e\n          \u003cstrong\u003e\n            \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$1,552.78\n            \" data-toggle=\"tooltip\"\u003e$1,552.78\n            \u003c/span\u003e\n          \u003c/strong\u003e\n          \u003cspan\u003eper seat\u003c/span\u003e\n        \u003c/p\u003e\n      \u003c/p\u003e\n    \u003c/li\u003e\n    \u003cli class='aircraft odd' id='31'\u003e\n      \u003cp\u003e\n        \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"A-1 AIR CARRIERS, INC. - ASTROLUX - SIKORSKY S-434\" data-toggle=\"tooltip\"\u003eA-1 AIR CARRIERS, INC. - ASTROLUX - SIKORSKY S-434\u003c/span\u003e\n      \u003c/p\u003e\n      \u003cp\u003e\n        SkyLimo -\n        \u003cstrong\u003e\n          \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$14,655.26\n          \" data-toggle=\"tooltip\"\u003e$14,655.26\n          \u003c/span\u003e\n        \u003c/strong\u003e\n        \u003cp\u003e\n          \u003cspan\u003eSkyShare - as low as\u003c/span\u003e\n          \u003cstrong\u003e\n            \u003cspan class=\"over-hidden\" data-html=\"true\" data-placement=\"top\" data-title=\"$4,488.17\n            \" data-toggle=\"tooltip\"\u003e$4,488.17\n            \u003c/span\u003e\n          \u003c/strong\u003e\n          \u003cspan\u003eper seat\u003c/span\u003e\n        \u003c/p\u003e\n      \u003c/p\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n  \u003cdiv class='arrow_down' style=\"background: url('/assets/gmap-marker-infowindow-bg-3.png')\"\u003e\n    \u003cdiv class='arrow_content'\u003e\n      \u003cimg alt=\"Gmap marker infowindow arrowdown\" class=\"first\" src=\"/assets/gmap-marker-infowindow-arrowdown.png\" /\u003e\n      \u003cspan class='more'\u003e\u003c/span\u003e\n      \u003cimg alt=\"Gmap marker infowindow arrowdown\" class=\"second\" src=\"/assets/gmap-marker-infowindow-arrowdown.png\" /\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n","aircrafts":7}};
+    //]]>
+    </script>
+    <script src="assets/jquery.js?body=1"></script>
+    <script src="assets/jquery_ujs.js?body=1"></script>
+    <script src="assets/jquery.ui.core.js?body=1"></script>
+    <script src="assets/jquery.ui.widget.js?body=1"></script>
+    <script src="assets/jquery.ui.accordion.js?body=1"></script>
+    <script src="assets/jquery.ui.position.js?body=1"></script>
+    <script src="assets/jquery.ui.menu.js?body=1"></script>
+    <script src="assets/jquery.ui.autocomplete.js?body=1"></script>
+    <script src="assets/jquery.ui.button.js?body=1"></script>
+    <script src="assets/jquery.ui.datepicker.js?body=1"></script>
+    <script src="assets/jquery.ui.mouse.js?body=1"></script>
+    <script src="assets/jquery.ui.draggable.js?body=1"></script>
+    <script src="assets/jquery.ui.resizable.js?body=1"></script>
+    <script src="assets/jquery.ui.dialog.js?body=1"></script>
+    <script src="assets/jquery.ui.droppable.js?body=1"></script>
+    <script src="assets/jquery.ui.effect.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-blind.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-bounce.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-clip.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-drop.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-explode.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-fade.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-fold.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-highlight.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-pulsate.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-scale.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-shake.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-slide.js?body=1"></script>
+    <script src="assets/jquery.ui.effect-transfer.js?body=1"></script>
+    <script src="assets/jquery.ui.progressbar.js?body=1"></script>
+    <script src="assets/jquery.ui.selectable.js?body=1"></script>
+    <script src="assets/jquery.ui.slider.js?body=1"></script>
+    <script src="assets/jquery.ui.sortable.js?body=1"></script>
+    <script src="assets/jquery.ui.spinner.js?body=1"></script>
+    <script src="assets/jquery.ui.tabs.js?body=1"></script>
+    <script src="assets/jquery.ui.tooltip.js?body=1"></script>
+    <script src="assets/jquery.ui.all.js?body=1"></script>
+    <script src="assets/jstz.js?body=1"></script>
+    <script src="assets/jquery.maskedinput.js?body=1"></script>
+    <script src="assets/bootstrap.js?body=1"></script>
+    <script src="assets/bootstrapValidator.js?body=1"></script>
+    <script src="assets/jquery.uniform.min.js?body=1"></script>
+    <script src="assets/jquery.mousewheel.js?body=1"></script>
+    <script src="assets/jquery.scrollTo.js?body=1"></script>
+    <script src="assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1"></script>
+    <script src="assets/jquery-fileupload/vendor/load-image.js?body=1"></script>
+    <script src="assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1"></script>
+    <script src="assets/jquery-fileupload/vendor/tmpl.js?body=1"></script>
+    <script src="assets/jquery-fileupload/jquery.iframe-transport.js?body=1"></script>
+    <script src="assets/jquery-fileupload/jquery.fileupload.js?body=1"></script>
+    <script src="assets/jquery-fileupload/jquery.fileupload-fp.js?body=1"></script>
+    <script src="assets/jquery-fileupload/jquery.fileupload-ui.js?body=1"></script>
+    <script src="assets/jquery-fileupload/locale.js?body=1"></script>
+    <script src="assets/jquery-fileupload/index.js?body=1"></script>
+    <script src="assets/cocoon.js?body=1"></script>
+    <script src="assets/jquery.truncate.js?body=1"></script>
+    <script src="assets/autocomplete-rails.js?body=1"></script>
+    <script src="assets/shared/global.js?body=1"></script>
+    <script src="assets/shared/aircrafts.js?body=1"></script>
+    <script src="assets/shared/upload_files.js?body=1"></script>
+    <script src="assets/bookings.js?body=1"></script>
+    <script src="assets/global.js?body=1"></script>
+    <script src="assets/home.js?body=1"></script>
+    <script src="assets/scroll_images.js?body=1"></script>
+    <script src="assets/trip_aircraft_finder.js?body=1"></script>
+    <script src="assets/trips.js?body=1"></script>
+    <script src="assets/users.js?body=1"></script>
+    <script src="assets/operator/calendar.js?body=1"></script>
+    <script src="assets/operator/dashboard.js?body=1"></script>
+    <script src="assets/operator/flights.js?body=1"></script>
+    <script src="assets/operator/operator.js?body=1"></script>
+    <script src="assets/application.js?body=1"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDZeKpeUILZT9hNWBaXMS_0qlaCvhKyB4Y&amp;sensor=false"></script><script src="assets/jquery.totemticker.js?body=1"></script>
+    <script src="assets/gmaps/gmaps.core.js?body=1"></script>
+    <script src="assets/gmaps/gmaps.markers.js?body=1"></script>
+    <script src="assets/gmaps/gmaps.events.js?body=1"></script>
+    <script src="assets/gmaps/gmaps.styles.js?body=1"></script>
+    <script src="assets/gmaps/gmaps.overlays.js?body=1"></script>
+    <script src="assets/gmaps/gmaps.geometry.js?body=1"></script>
+    <script src="assets/markerclusterer.js?body=1"></script>
+    <script src="assets/markerwithlabel.js?body=1"></script>
+    <script src="assets/infobox.js?body=1"></script>
+    <script src="assets/google_maps/google_maps_ib.js?body=1"></script>
+    <script src="assets/google_maps/google_maps.js?body=1"></script>
+    <script src="assets/google_maps/google_maps_initiator.js?body=1"></script>
+    <script src="assets/google_maps/maps.js?body=1"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+    <meta content="v/Nl4ed0L2lYIQWkXtx7s5d+WIJidYFTh4cDnhhKvIo=" name="csrf-token" />
+    
+  </head>
+  <body>
+    
+    
+    <div class='navbar navbar-inverse' role='navigation'>
+      <div class='container-fluid'>
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class="navbar-brand" href="http://localhost:3000/fly"><img alt="" class="img-responsive" src="assets/evolux_logo-silver_395x80.png" /></a>
+        </div>
+        <div class='navbar-collapse collapse'>
+          <ul class='nav navbar-nav navbar-right'>
+            <li class='divider'></li>
+            <li class='active blue'><a href="http://localhost:3000/sign_in">Sign in</a></li>
+            <li><a href="http://localhost:3000/users/sign_up">Create account</a></li>
+            <li><a href="http://localhost:3000/operator/sign_up">Create operator</a></li>
+          </ul>
+          <ul class='nav navbar-nav'>
+            <li class='active'><a href="http://localhost:3000/about">ABOUT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='maps-flash' id='flash_messages'>
+      </div>
+    </div>
+    
+    <script>
+      $(document).ready(function(){
+        trips_map_initiator.initialize();
+      });
+    </script>
+    <div class='google-map-full homeMap'>
+      <div class='googleMap' id='results_gmap'></div>
+      <img alt="Loading..." class="loading" src="assets/trans-loader.gif" />
+    </div>
+    <div class='container' id='trip'>
+      <div class='row'>
+        <div class='col-xs-4 leftcol'>
+          <div class='row'>
+            <div class='col-xs-12'>
+              <form accept-charset="UTF-8" action="trips" class="form-horizontal form-search-flights trip-details" id="trip_aircraft_finder_form" method="get" role="form"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>          <div id='form_aircraft_class_container' style='display:none'>
+                          <input name="trip_aircraft_finder[price_config_ids][]" type="hidden" value="" /><input checked="checked" id="trip_aircraft_finder_price_config_ids_14" name="trip_aircraft_finder[price_config_ids][]" type="checkbox" value="14" />
+                          <input name="trip_aircraft_finder[price_config_ids][]" type="hidden" value="" /><input checked="checked" id="trip_aircraft_finder_price_config_ids_15" name="trip_aircraft_finder[price_config_ids][]" type="checkbox" value="15" />
+                          <input name="trip_aircraft_finder[price_config_ids][]" type="hidden" value="" /><input checked="checked" id="trip_aircraft_finder_price_config_ids_16" name="trip_aircraft_finder[price_config_ids][]" type="checkbox" value="16" />
+                          <input name="trip_aircraft_finder[price_config_ids][]" type="hidden" value="" /><input checked="checked" id="trip_aircraft_finder_price_config_ids_17" name="trip_aircraft_finder[price_config_ids][]" type="checkbox" value="17" />
+                        </div>
+                        <h3>
+                          Search for Aircraft
+                          <a class="toggle aircraft-edit">EDIT</a>
+                        </h3>
+                        <div class='form-group'>
+                          <label class="col-sm-3 control-label" for="trip_aircraft_finder_trip_type">Trip Type</label>
+                          <div class='col-sm-9'>
+                            <label class='radio-inline'>
+                              <input id="trip_aircraft_finder_trip_type_one_way" name="trip_aircraft_finder[trip_type]" type="radio" value="one_way" />
+                              One-Way
+                            </label>
+                            <label class='radio-inline'>
+                              <input checked="checked" id="trip_aircraft_finder_trip_type_round_trip" name="trip_aircraft_finder[trip_type]" type="radio" value="round_trip" />
+                              Round Trip
+                            </label>
+                          </div>
+                        </div>
+                        <div class='form-group'>
+                          <input id="departure_region" name="departure_region" type="hidden" value="4" />
+                          <label class="col-sm-3 control-label require" for="trip_aircraft_finder_departute">Departure</label>
+                          <div class='col-sm-9'>
+                            <input class="form-control" data-autocomplete="/trips/autocomplete_departure_name" id="trip_aircraft_finder_departute" name="trip_aircraft_finder[departute]" placeholder="Search by city, zip or vertiport code" type="text" value="St. Petersburg - Albert Whitted Airport (SPG)" />
+                          </div>
+                        </div>
+                        <div id='trip_aircraft_finder_stops'>
+                          <div class='form-group'>
+                            <label class="col-sm-3 control-label" for="trip_aircraft_finder_flight_stop">Stop</label>
+                            <div class='col-sm-9'>
+                              <input class="form-control" data-autocomplete-fields="{&quot;departure_region&quot;:&quot;#departure_region&quot;}" data-autocomplete="/trips/autocomplete_vertiport_name" id="trip_aircraft_finder_flight_stop[]" name="trip_aircraft_finder[flight_stop[]]" placeholder="Search by city, zip or vertiport code" type="text" value="Peter O Knight Airport, Tampa, FL" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class='form-group add-stop-holder'>
+                          <div class='col-sm-12'>
+                            <button class='btn btn-primary btn-xs pull-right' id='trip_aircraft_finder_add_stop_link' type='button'>STOP</button>
+                          </div>
+                        </div>
+                        <div class='form-group'>
+                          <label class="col-sm-3 control-label require" for="trip_aircraft_finder_arrival">Arrival</label>
+                          <div class='col-sm-9'>
+                            <input class="form-control" data-autocomplete-fields="{&quot;departure_region&quot;:&quot;#departure_region&quot;}" data-autocomplete="/trips/autocomplete_vertiport_name" id="trip_aircraft_finder_arrival" name="trip_aircraft_finder[arrival]" placeholder="Search by city, zip or vertiport code" type="text" value="Tampa International Airport (TPA)" />
+                          </div>
+                        </div>
+                        <div class='form-group calendar-holder'>
+                          <label class="col-sm-3 control-label" for="trip_aircraft_finder_departure_date">Date/Time</label>
+                          <div class='col-xs-5'>
+                            <input class="form-control calendar" id="trip_aircraft_finder_departure_date" name="trip_aircraft_finder[departure_date]" type="text" value="08/31/2014" />
+                          </div>
+                          <div class='col-xs-4 time'>
+                            <select class="form-control" id="trip_aircraft_finder_departure_time" name="trip_aircraft_finder[departure_time]"><option value="">-- Select --</option>
+                            <option selected="selected" value="12:00 AM">12:00 AM</option>
+                            <option value="12:30 AM">12:30 AM</option>
+                            <option value="01:00 AM">01:00 AM</option>
+                            <option value="01:30 AM">01:30 AM</option>
+                            <option value="02:00 AM">02:00 AM</option>
+                            <option value="02:30 AM">02:30 AM</option>
+                            <option value="03:00 AM">03:00 AM</option>
+                            <option value="03:30 AM">03:30 AM</option>
+                            <option value="04:00 AM">04:00 AM</option>
+                            <option value="04:30 AM">04:30 AM</option>
+                            <option value="05:00 AM">05:00 AM</option>
+                            <option value="05:30 AM">05:30 AM</option>
+                            <option value="06:00 AM">06:00 AM</option>
+                            <option value="06:30 AM">06:30 AM</option>
+                            <option value="07:00 AM">07:00 AM</option>
+                            <option value="07:30 AM">07:30 AM</option>
+                            <option value="08:00 AM">08:00 AM</option>
+                            <option value="08:30 AM">08:30 AM</option>
+                            <option value="09:00 AM">09:00 AM</option>
+                            <option value="09:30 AM">09:30 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="10:30 AM">10:30 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="11:30 AM">11:30 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="12:30 PM">12:30 PM</option>
+                            <option value="01:00 PM">01:00 PM</option>
+                            <option value="01:30 PM">01:30 PM</option>
+                            <option value="02:00 PM">02:00 PM</option>
+                            <option value="02:30 PM">02:30 PM</option>
+                            <option value="03:00 PM">03:00 PM</option>
+                            <option value="03:30 PM">03:30 PM</option>
+                            <option value="04:00 PM">04:00 PM</option>
+                            <option value="04:30 PM">04:30 PM</option>
+                            <option value="05:00 PM">05:00 PM</option>
+                            <option value="05:30 PM">05:30 PM</option>
+                            <option value="06:00 PM">06:00 PM</option>
+                            <option value="06:30 PM">06:30 PM</option>
+                            <option value="07:00 PM">07:00 PM</option>
+                            <option value="07:30 PM">07:30 PM</option>
+                            <option value="08:00 PM">08:00 PM</option>
+                            <option value="08:30 PM">08:30 PM</option>
+                            <option value="09:00 PM">09:00 PM</option>
+                            <option value="09:30 PM">09:30 PM</option>
+                            <option value="10:00 PM">10:00 PM</option>
+                            <option value="10:30 PM">10:30 PM</option>
+                            <option value="11:00 PM">11:00 PM</option>
+                            <option value="11:30 PM">11:30 PM</option></select>
+                          </div>
+                        </div>
+                        <div class='form-group calendar-holder' id='return_time_container' style=''>
+                          <label class="col-sm-3 control-label" for="trip_aircraft_finder_return_date">Return Date/Time</label>
+                          <div class='col-xs-5'>
+                            <input class="form-control calendar" id="trip_aircraft_finder_return_date" name="trip_aircraft_finder[return_date]" type="text" value="09/03/2014" />
+                          </div>
+                          <div class='col-xs-4 time'>
+                            <select class="form-control" id="trip_aircraft_finder_return_time" name="trip_aircraft_finder[return_time]"><option value="">-- Select --</option>
+                            <option value="12:00 AM">12:00 AM</option>
+                            <option value="12:30 AM">12:30 AM</option>
+                            <option selected="selected" value="01:00 AM">01:00 AM</option>
+                            <option value="01:30 AM">01:30 AM</option>
+                            <option value="02:00 AM">02:00 AM</option>
+                            <option value="02:30 AM">02:30 AM</option>
+                            <option value="03:00 AM">03:00 AM</option>
+                            <option value="03:30 AM">03:30 AM</option>
+                            <option value="04:00 AM">04:00 AM</option>
+                            <option value="04:30 AM">04:30 AM</option>
+                            <option value="05:00 AM">05:00 AM</option>
+                            <option value="05:30 AM">05:30 AM</option>
+                            <option value="06:00 AM">06:00 AM</option>
+                            <option value="06:30 AM">06:30 AM</option>
+                            <option value="07:00 AM">07:00 AM</option>
+                            <option value="07:30 AM">07:30 AM</option>
+                            <option value="08:00 AM">08:00 AM</option>
+                            <option value="08:30 AM">08:30 AM</option>
+                            <option value="09:00 AM">09:00 AM</option>
+                            <option value="09:30 AM">09:30 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="10:30 AM">10:30 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="11:30 AM">11:30 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="12:30 PM">12:30 PM</option>
+                            <option value="01:00 PM">01:00 PM</option>
+                            <option value="01:30 PM">01:30 PM</option>
+                            <option value="02:00 PM">02:00 PM</option>
+                            <option value="02:30 PM">02:30 PM</option>
+                            <option value="03:00 PM">03:00 PM</option>
+                            <option value="03:30 PM">03:30 PM</option>
+                            <option value="04:00 PM">04:00 PM</option>
+                            <option value="04:30 PM">04:30 PM</option>
+                            <option value="05:00 PM">05:00 PM</option>
+                            <option value="05:30 PM">05:30 PM</option>
+                            <option value="06:00 PM">06:00 PM</option>
+                            <option value="06:30 PM">06:30 PM</option>
+                            <option value="07:00 PM">07:00 PM</option>
+                            <option value="07:30 PM">07:30 PM</option>
+                            <option value="08:00 PM">08:00 PM</option>
+                            <option value="08:30 PM">08:30 PM</option>
+                            <option value="09:00 PM">09:00 PM</option>
+                            <option value="09:30 PM">09:30 PM</option>
+                            <option value="10:00 PM">10:00 PM</option>
+                            <option value="10:30 PM">10:30 PM</option>
+                            <option value="11:00 PM">11:00 PM</option>
+                            <option value="11:30 PM">11:30 PM</option></select>
+                          </div>
+                        </div>
+                        <div class='form-group'>
+                          <label class="col-xs-3 control-label" for="trip_aircraft_finder_passengers">Passengers</label>
+                          <div class='col-xs-3'>
+                            <select class="form-control" id="trip_aircraft_finder_passengers" name="trip_aircraft_finder[passengers]"><option value="">-- Select --</option>
+                            <option selected="selected" value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option></select>
+                          </div>
+                        </div>
+                        <div class='form-group submit-holder'>
+                          <div class='col-xs-12'>
+                            <input class="btn btn-primary pull-right" name="commit" type="submit" value="Apply Changes" />
+                          </div>
+                        </div>
+              </form>
+            </div>
+            <div class='col-xs-12'>
+              <div class='form-horizontal form-select-helicopter' id='select_aircraft_class_container' role='form'>
+                <div class='row'>
+                  <div class='title col-xs-12'>
+                    <h3>
+                      Select helicopter class
+                      <span class='glyphicon glyphicon-question-sign' data-html='true' data-placement='right' data-title="&lt;p&gt;Helicopters, like cars, vary greatly in costs of owning and operation. To better help you search and sort through available aircraft, EvoLux has created 4 classes of helicopter based on each aircraft's hourly rate.&lt;br/&gt;We display prices that calculate total flight time with the hourly rates, so you only pay for the time that the aircraft is flying. Prices also include wait time, landing fees, and taxes.&lt;/p&gt;" data-toggle='tooltip'></span>
+                    </h3>
+                  </div>
+                  <div class='col-xs-12'>
+                    <div class='row'>
+                      <label class='checked ecolux'>
+                        <span class='caption'>
+                          <span class='glyphicon glyphicon-question-sign pull-right' data-html='true' data-placement='right' data-title='<p><strong>EcoLux</strong><br></br>$0 - $1,500 / hour</p>' data-toggle='tooltip'></span>
+                          <input checked="checked" class="pull-right" id="14" name="price_config_ids[]" type="checkbox" value="14" />
+                          EcoLux
+                        </span>
+                      </label>
+                      <label class='checked delux'>
+                        <span class='caption'>
+                          <span class='glyphicon glyphicon-question-sign pull-right' data-html='true' data-placement='right' data-title='<p><strong>DeLux</strong><br></br>$1,500 - $3,000 / hour</p>' data-toggle='tooltip'></span>
+                          <input checked="checked" class="pull-right" id="15" name="price_config_ids[]" type="checkbox" value="15" />
+                          DeLux
+                        </span>
+                      </label>
+                      <label class='astrolux checked'>
+                        <span class='caption'>
+                          <span class='glyphicon glyphicon-question-sign pull-right' data-html='true' data-placement='right' data-title='<p><strong>AstroLux</strong><br></br>$3,000 - $5,000 / hour</p>' data-toggle='tooltip'></span>
+                          <input checked="checked" class="pull-right" id="16" name="price_config_ids[]" type="checkbox" value="16" />
+                          AstroLux
+                        </span>
+                      </label>
+                      <label class='checked ultralux'>
+                        <span class='caption'>
+                          <span class='glyphicon glyphicon-question-sign pull-right' data-html='true' data-placement='right' data-title='<p><strong>Ultra-Lux</strong><br></br>$5,000+ / hour</p>' data-toggle='tooltip'></span>
+                          <input checked="checked" class="pull-right" id="17" name="price_config_ids[]" type="checkbox" value="17" />
+                          Ultra-Lux
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-xs-8 rightcol'>
+          <div class='row'>
+            <div class='title-holder'>
+              <a href='trips#'>Learn more about SKYLIMO &amp; SKYSHARE</a>
+              <h2>Results</h2>
+            </div>
+            <div class='more-results-arrow' id='more_results_up'></div>
+            <div id='trip_aircrafts_container'>
+              
+              <script>
+                $(document).ready(function(){
+                  window.trip_aircraft_resultor.initialize();
+                  window.scroll_images_initializator.initialize();
+                });
+              </script>
+              <div class='col-xs-12 results-holder container-fluid'>
+                <div id='trip_errors'></div>
+                <form accept-charset="UTF-8" action="http://localhost:3000/trips/valid_flight" class="new_flight" data-remote="true" id="new_trip_form" method="post" style="display:none"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>  <input id="result_redirect" name="result_redirect" type="hidden" value="/trips?departure_region=4&amp;trip_aircraft_finder%5Barrival%5D=Tampa+International+Airport+%28TPA%29&amp;trip_aircraft_finder%5Bdeparture_date%5D=08%2F31%2F2014&amp;trip_aircraft_finder%5Bdeparture_time%5D=12%3A00+AM&amp;trip_aircraft_finder%5Bdepartute%5D=St.+Petersburg+-+Albert+Whitted+Airport+%28SPG%29&amp;trip_aircraft_finder%5Bflight_stops%5D%5B%5D=Peter+O+Knight+Airport%2C+Tampa%2C+FL&amp;trip_aircraft_finder%5Bpassengers%5D=1&amp;trip_aircraft_finder%5Bprice_config_ids%5D%5B%5D=&amp;trip_aircraft_finder%5Bprice_config_ids%5D%5B%5D=14&amp;trip_aircraft_finder%5Bprice_config_ids%5D%5B%5D=&amp;trip_aircraft_finder%5Bprice_config_ids%5D%5B%5D=15&amp;trip_aircraft_finder%5Bprice_config_ids%5D%5B%5D=&amp;trip_aircraft_finder%5Bprice_config_ids%5D%5B%5D=16&amp;trip_aircraft_finder%5Bprice_config_ids%5D%5B%5D=&amp;trip_aircraft_finder%5Bprice_config_ids%5D%5B%5D=17&amp;trip_aircraft_finder%5Breturn_date%5D=09%2F03%2F2014&amp;trip_aircraft_finder%5Breturn_time%5D=01%3A00+AM&amp;trip_aircraft_finder%5Btrip_type%5D=round_trip" />
+                  <input id="flight_aircraft_id" name="flight[aircraft_id]" type="hidden" />
+                  <input id="flight_booking_type" name="flight[booking_type]" type="hidden" />
+                  <input id="flight_reposition_vertiport_id" name="flight[reposition_vertiport_id]" type="hidden" />
+                  <input id="flight_departure_vertiport_id" name="flight[departure_vertiport_id]" type="hidden" value="37" />
+                  <input id="flight_arrival_vertiport_id" name="flight[arrival_vertiport_id]" type="hidden" value="2" />
+                  <input id="flight_trip_type" name="flight[trip_type]" type="hidden" value="round_trip" />
+                  <input id="flight_departure_datetime" name="flight[departure_datetime]" type="hidden" value="2014-08-31 00:00:00" />
+                  <input id="flight_return_datetime" name="flight[return_datetime]" type="hidden" value="2014-09-03 01:00:00" />
+                  <input id="flight_search_passengers_count" name="flight[search_passengers_count]" type="hidden" value="1" />
+                  <input id="flight_flight_stops_attributes_0_vertiport_id" name="flight[flight_stops_attributes][0][vertiport_id]" type="hidden" value="62" />
+                  <input id="flight_flight_stops_attributes_0_stop_order" name="flight[flight_stops_attributes][0][stop_order]" type="hidden" value="0" />
+                </form>
+                <div class='result-aircrafts-holder row'>
+                  <div class='row wrapper'>
+                    <div class='item col-xs-12' id='aircraft3'>
+                      <figure class='col-xs-3 img-holder aircraft-img-carousel'>
+                        <div class='aircraft-img-scroll'>
+                          <img alt="Aircraft image" src="assets/defaults/small_missing.png" />
+                        </div>
+                      </figure>
+                      <div class='helicopter-details col-xs-4'>
+                        
+                        <img alt="Logo" src="https://dev-local-evolux.s3.amazonaws.com/system/images/operator/logo_blue/7/logo_0.jpg" />
+                        <br/>
+                        <p>
+                          EcoLux
+                          <br>
+                          
+                          <span class="over-hidden" data-html="true" data-placement="top" data-title="AgustaWestland AW119 Ke" data-toggle="tooltip">AgustaWestland AW119 Ke</span>
+                        </p>
+                        <p>
+                          Aircraft Location:
+                          <br>
+                          <span class="over-hidden" data-html="true" data-placement="top" data-title="St. Petersburg - Albert Whitted Airport (SPG), FL" data-toggle="tooltip">St. Petersburg - Albert Whitted Airport (SPG), FL</span>
+                        </p>
+                        <p>
+                          <small>
+                            Max 1 Passengers
+                            <br>
+                            <span class='blue'>
+                              *Flight and Price Details
+                              <span class='glyphicon glyphicon-question-sign' data-html='true' data-placement='right' data-title='&lt;p&gt;&lt;strong&gt;FlightTime: &lt;/strong&gt;Leg 1 - 68 minutes, Leg 2 - 64 minutes, Leg 3 - 64 minutes, Leg 4 - 68 minutes&lt;/p&gt;&lt;p&gt;&lt;small&gt;Price includes Landing Fees and Total Flight Time&lt;/small&gt;&lt;/p&gt;' data-toggle='tooltip'></span>
+                              <a aria-labelledby="myModalLabel" class="operator-info-link" data-target="#operator-info-modal" data-toggle="modal" href="http://localhost:3000/operator_info_modal/3"></a>
+                            </span>
+                          </small>
+                        </p>
+                      </div>
+                      <div class='price-details col-xs-5'>
+                        <div class='private'>
+                          <h3>Private Booking</h3>
+                          <a class="btn btn-primary pull-right sky_booking_action" data-aircraft_id="3" data-booking_type="skylimo" href="javascript:void(0)">Book skylimo</a>
+                          <p class='price'>
+                            <span>reserve now for</span>
+                            <br>
+                            <strong>
+                              $69*
+                            </strong>
+                          </p>
+                        </div>
+                        <div class='share'>
+                          <h3>SkyShare</h3>
+                          <a class="btn btn-primary pull-right sky_booking_action" data-aircraft_id="3" data-booking_type="skyshare" href="javascript:void(0)">Start skyshare</a>
+                          <p class='price'>
+                            <span>For as low as</span>
+                            <br>
+                            <strong>
+                              $79
+                            </strong>
+                            <span>per seat</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='row wrapper'>
+                    <div class='item col-xs-12' id='aircraft2'>
+                      <figure class='col-xs-3 img-holder aircraft-img-carousel'>
+                        <div class='aircraft-img-scroll'>
+                          <img alt="Aircraft image" src="assets/defaults/small_missing.png" />
+                        </div>
+                      </figure>
+                      <div class='helicopter-details col-xs-4'>
+                        
+                        <img alt="Logo" src="https://dev-local-evolux.s3.amazonaws.com/system/images/operator/logo_blue/7/logo_0.jpg" />
+                        <br/>
+                        <p>
+                          EcoLux
+                          <br>
+                          
+                          <span class="over-hidden" data-html="true" data-placement="top" data-title="AgustaWestland AW109 Power" data-toggle="tooltip">AgustaWestland AW109 Power</span>
+                        </p>
+                        <p>
+                          Aircraft Location:
+                          <br>
+                          <span class="over-hidden" data-html="true" data-placement="top" data-title="St. Petersburg - Albert Whitted Airport (SPG), FL" data-toggle="tooltip">St. Petersburg - Albert Whitted Airport (SPG), FL</span>
+                        </p>
+                        <p>
+                          <small>
+                            Max 7 Passengers
+                            <br>
+                            <span class='blue'>
+                              *Flight and Price Details
+                              <span class='glyphicon glyphicon-question-sign' data-html='true' data-placement='right' data-title='&lt;p&gt;&lt;strong&gt;FlightTime: &lt;/strong&gt;Leg 1 - 360 minutes, Leg 2 - 192 minutes, Leg 3 - 192 minutes, Leg 4 - 360 minutes&lt;/p&gt;&lt;p&gt;&lt;small&gt;Price includes Landing Fees and 1.0 free hour(s) of wait time + 62.8 hours at $2/hr and Total Flight Time&lt;/small&gt;&lt;/p&gt;' data-toggle='tooltip'></span>
+                              <a aria-labelledby="myModalLabel" class="operator-info-link" data-target="#operator-info-modal" data-toggle="modal" href="http://localhost:3000/operator_info_modal/2"></a>
+                            </span>
+                          </small>
+                        </p>
+                      </div>
+                      <div class='price-details col-xs-5'>
+                        <div class='private'>
+                          <h3>Private Booking</h3>
+                          <a class="btn btn-primary pull-right sky_booking_action" data-aircraft_id="2" data-booking_type="skylimo" href="javascript:void(0)">Book skylimo</a>
+                          <p class='price'>
+                            <span>reserve now for</span>
+                            <br>
+                            <strong>
+                              $157*
+                            </strong>
+                          </p>
+                        </div>
+                        <div class='share'>
+                          <h3>SkyShare</h3>
+                          <a class="btn btn-primary pull-right sky_booking_action" data-aircraft_id="2" data-booking_type="skyshare" href="javascript:void(0)">Start skyshare</a>
+                          <p class='price'>
+                            <span>For as low as</span>
+                            <br>
+                            <strong>
+                              $29
+                            </strong>
+                            <span>per seat</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='row wrapper'>
+                    <div class='item' id='aircraft1'>
+                      <figure class='col-xs-3 img-holder aircraft-img-carousel'>
+                        <div class='aircraft-img-scroll'>
+                          <img alt="Aircraft image" src="assets/defaults/small_missing.png" />
+                        </div>
+                      </figure>
+                      <div class='helicopter-details col-xs-4'>
+                        
+                        <img alt="Logo" src="https://dev-local-evolux.s3.amazonaws.com/system/images/operator/logo_blue/7/logo_0.jpg" />
+                        <br/>
+                        <p>
+                          EcoLux
+                          <br>
+                          
+                          <span class="over-hidden" data-html="true" data-placement="top" data-title="AgustaWestland AW109 Power" data-toggle="tooltip">AgustaWestland AW109 Power</span>
+                        </p>
+                        <p>
+                          Aircraft Location:
+                          <br>
+                          <span class="over-hidden" data-html="true" data-placement="top" data-title="St. Petersburg - Albert Whitted Airport (SPG), FL" data-toggle="tooltip">St. Petersburg - Albert Whitted Airport (SPG), FL</span>
+                        </p>
+                        <p>
+                          <small>
+                            Max 7 Passengers
+                            <br>
+                            <span class='blue'>
+                              *Flight and Price Details
+                              <span class='glyphicon glyphicon-question-sign' data-html='true' data-placement='right' data-title='&lt;p&gt;&lt;strong&gt;FlightTime: &lt;/strong&gt;Leg 1 - 360 minutes, Leg 2 - 192 minutes, Leg 3 - 192 minutes, Leg 4 - 360 minutes&lt;/p&gt;&lt;p&gt;&lt;small&gt;Price includes Landing Fees and 1.0 free hour(s) of wait time + 62.8 hours at $32/hr and Total Flight Time&lt;/small&gt;&lt;/p&gt;' data-toggle='tooltip'></span>
+                              <a aria-labelledby="myModalLabel" class="operator-info-link" data-target="#operator-info-modal" data-toggle="modal" href="http://localhost:3000/operator_info_modal/1"></a>
+                            </span>
+                          </small>
+                        </p>
+                      </div>
+                      <div class='price-details col-xs-5'>
+                        <div class='private'>
+                          <h3>Private Booking</h3>
+                          <a class="btn btn-primary pull-right sky_booking_action" data-aircraft_id="1" data-booking_type="skylimo" href="javascript:void(0)">Book skylimo</a>
+                          <p class='price'>
+                            <span>reserve now for</span>
+                            <br>
+                            <strong>
+                              $753*
+                            </strong>
+                          </p>
+                        </div>
+                        <div class='share'>
+                          <h3>SkyShare</h3>
+                          <a class="btn btn-primary pull-right sky_booking_action" data-aircraft_id="1" data-booking_type="skyshare" href="javascript:void(0)">Start skyshare</a>
+                          <p class='price'>
+                            <span>For as low as</span>
+                            <br>
+                            <strong>
+                              $137
+                            </strong>
+                            <span>per seat</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='row wrapper'>
+                    <div class='item' id='aircraft69'>
+                      <figure class='col-xs-3 img-holder aircraft-img-carousel'>
+                        <div class='carousel slide' data-interval='false' data-ride='carousel' id='aircraft_carousel_69'>
+                          <ol class='carousel-indicators'>
+                            <li class='active' data-slide-to='0' data-target='#aircraft_carousel_69'></li>
+                            <li class='' data-slide-to='1' data-target='#aircraft_carousel_69'></li>
+                          </ol>
+                          <div class='carousel-inner'>
+                            <div class='active aircraft-img-scroll item'>
+                              <img alt="Aircraft image" src="https://dev-local-evolux.s3.amazonaws.com/system/images/image/image/62/egfox_ubuntu_blue_2_hd_2011_by_eg_art-d3afpt3.jpg" />
+                            </div>
+                            <div class='aircraft-img-scroll item'>
+                              <img alt="Aircraft image" src="https://dev-local-evolux.s3.amazonaws.com/system/images/image/image/63/eiffel-wallpaper2.jpg" />
+                            </div>
+                          </div>
+                          <a class="left carousel-control" data-slide="prev" href="trips#aircraft_carousel_69"><span class='glyphicon glyphicon-chevron-left'></span>
+                          </a>
+                          <a class="right carousel-control" data-slide="next" href="trips#aircraft_carousel_69"><span class='glyphicon glyphicon-chevron-right'></span>
+                          </a>
+                        </div>
+                      </figure>
+                      <div class='helicopter-details col-xs-4'>
+                        
+                        <img alt="Logo" src="https://dev-local-evolux.s3.amazonaws.com/system/images/operator/logo_blue/21/logo_logo-aircraft1.png" />
+                        <br/>
+                        <p>
+                          EcoLux
+                          <br>
+                          
+                          <span class="over-hidden" data-html="true" data-placement="top" data-title="AgustaWestland AW119 Ke" data-toggle="tooltip">AgustaWestland AW119 Ke</span>
+                        </p>
+                        <p>
+                          Aircraft Location:
+                          <br>
+                          <span class="over-hidden" data-html="true" data-placement="top" data-title="St. Petersburg - Albert Whitted Airport (SPG), FL" data-toggle="tooltip">St. Petersburg - Albert Whitted Airport (SPG), FL</span>
+                        </p>
+                        <p>
+                          <small>
+                            Max 7 Passengers
+                            <br>
+                            <span class='blue'>
+                              *Flight and Price Details
+                              <span class='glyphicon glyphicon-question-sign' data-html='true' data-placement='right' data-title='&lt;p&gt;&lt;strong&gt;FlightTime: &lt;/strong&gt;Leg 1 - 511 minutes, Leg 2 - 258 minutes, Leg 3 - 258 minutes, Leg 4 - 511 minutes&lt;/p&gt;&lt;p&gt;&lt;small&gt;Price includes Landing Fees and 1.0 free hour(s) of wait time + 59.2 hours at $3/hr and Total Flight Time&lt;/small&gt;&lt;/p&gt;' data-toggle='tooltip'></span>
+                              <a aria-labelledby="myModalLabel" class="operator-info-link" data-target="#operator-info-modal" data-toggle="modal" href="http://localhost:3000/operator_info_modal/69"></a>
+                            </span>
+                          </small>
+                        </p>
+                      </div>
+                      <div class='price-details col-xs-5'>
+                        <div class='private'>
+                          <h3>Private Booking</h3>
+                          <a class="btn btn-primary pull-right sky_booking_action" data-aircraft_id="69" data-booking_type="skylimo" href="javascript:void(0)">Book skylimo</a>
+                          <p class='price'>
+                            <span>reserve now for</span>
+                            <br>
+                            <strong>
+                              $3,172*
+                            </strong>
+                          </p>
+                        </div>
+                        <div class='share'>
+                          <h3>SkyShare</h3>
+                          <a class="btn btn-primary pull-right sky_booking_action" data-aircraft_id="69" data-booking_type="skyshare" href="javascript:void(0)">Start skyshare</a>
+                          <p class='price'>
+                            <span>For as low as</span>
+                            <br>
+                            <strong>
+                              $578
+                            </strong>
+                            <span>per seat</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="slideout" class="item slideout" style="clear:both;">
+                        <div class="col-xs-12">
+                            <img src="assets/aag-logo.png" class="left">
+                        </div>
+                        <div style="clear:both;"></div>
+                        <div class="col-xs-5">
+                            <p>
+                                Operator Info:<br/>
+                            </p>
+                            <p>
+                                Associated Aircraft Group (AAG™) is the premier executive helicopter company serving the Northeastern United States. A wholly owned subsidiary of Sikorsky Aircraft Corporation and its parent company United Technologies Corporation, AAG has been providing executive travel for more than 20 years. AAG occupies flight facilities in New York, Teterboro, Providence and Philadelphia and operates the largest fleet of Sikorsky S-76® helicopters in the region. The decision to fly with AAG is an easy one. Associated Aircraft Group gives you peace of mind and confidence in knowing that the safety of you and your family are our #1 priority.
+                            </p>
+                            <img src="assets/slideout-badges.png" alt="">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-xs-6">
+                            <iframe class="youtube" width="400" height="225" src="//www.youtube.com/embed/Iln0pmPK5_g" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        
+                        <div style="clear:both;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='skyshare-holder row'>
+                <div class='title-holder'>
+                  <a class="view-all" href="http://localhost:3000/skyshares" style="padding-right: 0px">View all feature SkyShares</a>
+                  <h3>Feature SkyShares</h3> 
+                </div>
+                <script>
+                  $(document).ready(function(){
+                    window.scroll_images_initializator.initialize(".vertiport-img-scroll");
+                  });
+                </script>
+                <div class='col-xs-12 flights-box skyshare-box skyshare-result-page'>
+                  <div class='row'>
+                    <figure class='img-holder col-xs-4'>
+                      <div class='carousel slide' data-interval='false' data-ride='carousel' id='vertiport_carousel_2_527'>
+                        <div class='carousel-inner'>
+                          <div class='active img-holder item vertiport-img-scroll'>
+                            <img alt="vertiport image" src="https://dev-local-evolux.s3.amazonaws.com/system/images/image/image/75/51.jpg" />
+                          </div>
+                          <div class='img-holder item vertiport-img-scroll'>
+                            <img alt="vertiport image" src="https://dev-local-evolux.s3.amazonaws.com/system/images/image/image/74/ubuntuz-3.png" />
+                          </div>
+                        </div>
+                        <a class="left carousel-control" data-slide="prev" href="trips#vertiport_carousel_2_527"><span class='glyphicon glyphicon-chevron-left'></span>
+                        </a>
+                        <a class="right carousel-control" data-slide="next" href="trips#vertiport_carousel_2_527"><span class='glyphicon glyphicon-chevron-right'></span>
+                        </a>
+                      </div>
+                    </figure>
+                    <div class='details col-xs-7'>
+                      <h3>Tampa</h3>
+                      <div class='content'>
+                        <p>
+                          Departure: Aug 31, 2014 at 12:30 am
+                          <br>
+                          Leaving from: St. Petersburg, FL
+                          <br>
+                          Helicopter: AgustaWestland AW119 Ke
+                          <br>
+                          Per-Seat Price Goal:
+                          <strong>$339.65</strong>
+                          <br>
+                        </p>
+                        <div class='passengers over-hidden'>
+                          <a href="trips#"><img alt="Logo" src="https://dev-local-evolux.s3.amazonaws.com/system/images/user/logo/2/thumb_0fwa_mps_christmasfeast_1600x1200.jpg?AWSAccessKeyId=1Q34109XK8C9WPBPRE82&amp;Signature=7XYEaz5O5djQL01aPX7qzhQ6lj0%3D&amp;Expires=1407304082" /></a><a href="trips#"><img alt="Logo" src="assets/defaults/thumb_user-logo.png" /></a><a href="trips#"></a><a href="trips#"></a><a href="trips#"></a><a href="trips#"></a><a href="trips#"></a>
+                        </div>
+                        <p class='view'>
+                          Needs 5 more passengers
+                        </p>
+                        <a class="btn btn-primary pull-right view-link" href="http://localhost:3000/trips/45A14B977" role="button">View</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class='more-results-arrow' id='more_results_down'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div aria-hidden='true' class='operator-info-modal modal fade' id='operator-info-modal' role='dialog' tabindex='-1'></div>
+    <footer>
+      <div class='container-fluid'>
+        <ul class='nav nav-social'>
+          <li><a href="http://instagram.com/evoluxtransportation"><img alt="Instagram" src="assets/icon-is-footer.png" /></a></li>
+          <li><a href="https://www.facebook.com/evoluxtransportation"><img alt="Facebook" src="assets/icon-fb-footer.png" /></a></li>
+          <li><a href="https://www.linkedin.com/company/evolux-transportation-llc-?trk=company_name"><img alt="LinkedIn" src="assets/icon-in-footer.png" /></a></li>
+          <li><a href="https://twitter.com/evo_lux"><img alt="Twitter" src="assets/icon-tw-footer.png" /></a></li>
+          <li><img alt="FAA" src="assets/135small.png" /></li>
+        </ul>
+        <ul class='nav nav-footer'>
+          <li><a href="http://localhost:3000/about/">About</a></li>
+          <li><a href="http://localhost:3000/services/">Services</a></li>
+          <li><a href="http://localhost:3000/community/">Community</a></li>
+          <li><a href="http://localhost:3000/operators/">Operators</a></li>
+          <li><a href="http://localhost:3000/contact/">Contact</a></li>
+          <li><a href="http://localhost:3000/faq/">FAQ</a></li>
+          <li><a href="http://blog.evo-lux.com/">Blog</a></li>
+        </ul>
+      </div>
+      <div class='copy'>
+        2014 © EvoLux Transportation, LLC
+      </div>
+    </footer>
+    <script type="text/javascript">
+        $(function() {
+            $('')
+        });
+    </script>
+  </body>
+</html>
